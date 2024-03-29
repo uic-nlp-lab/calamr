@@ -1,0 +1,132 @@
+## spaCy pipeline components
+#
+amr_parser:
+  class_name: zensols.amr.AmrParser
+  installer: 'instance: amr_parse_${amr_default:parse_model}_installer'
+
+amr_align_populator:
+  class_name: zensols.amr.AmrAlignmentPopulator
+  aligner: best
+
+amr_parser_component:
+  class_name: zensols.nlp.Component
+  modules: 'list: zensols.amr'
+  pipe_name: 'amr_parser'
+  pipe_config:
+    parser_name: 'amr_parser'
+  initializers: 'instance: tuple: amr_parser'
+
+amr_align_component:
+  class_name: zensols.nlp.Component
+  modules: 'list: zensols.amr'
+  pipe_name: 'amralign'
+
+
+## Client usable objects
+#
+# generate English from AMR graphs
+amr_generator:
+  class_name: zensols.amr.AmrGenerator
+  installer: 'instance: amr_gen_t5wtense_installer'
+
+split_hyphen_token_mapper:
+  class_name: zensols.nlp.SplitTokenMapper
+  regex: "r'([-])'"
+
+# split entity tokens for alignment and feature annotation
+amr_map_filter_token_normalizer:
+  class_name: zensols.nlp.MapTokenNormalizer
+  embed_entities: false
+  mapper_class_list:
+    - filter_token_mapper
+#    - split_space_token_mapper
+#    - split_hyphen_token_mapper
+
+# used to parse and populate AMR graphs
+amr_pipline_doc_parser:
+  class_name: zensols.nlp.SpacyFeatureDocumentParser
+  token_normalizer: 'instance: amr_map_filter_token_normalizer'
+  doc_class: 'class: zensols.amr.AmrFeatureDocument'
+  sent_class: 'class: zensols.amr.AmrFeatureSentence'
+  components: 'instance: list: amr_parser_component, amr_align_component'
+  reload_components: true
+
+# used for parsing human annotated AMR graphs with ``snt`` metadata, which is
+# useful for scoring
+amr_human_anon_doc_parser:
+  class_name: zensols.nlp.SpacyFeatureDocumentParser
+  token_normalizer: 'instance: amr_map_filter_token_normalizer'
+  doc_class: 'class: zensols.amr.AmrFeatureDocument'
+  sent_class: 'class: zensols.amr.AmrFeatureSentence'
+  components: 'instance: list: remove_sent_boundaries_component, amr_parser_component, amr_align_component'
+  reload_components: true
+
+
+## Train
+#
+amr_trainer_corpus:
+  class_name: zensols.install.Resource
+  url: '${amr_trainer_default:url}'
+  name: null
+
+amr_trainer_corpus_installer:
+  class_name: zensols.install.Installer
+  base_directory: 'path: ${amr_trainer_default:corpus_dir}'
+  resources: 'instance: list: amr_trainer_corpus'
+
+amr_trainer:
+  class_name: zensols.amr.Trainer
+  corpus_installer: 'instance: amr_trainer_corpus_installer'
+  parser: 'instance: amr_parser'
+  model_name: '${amr_trainer_default:model_name}'
+  temporary_dir: 'path: ${default:data_dir}/trained_output/${model_name}'
+  output_model_dir: 'path: ${amr_trainer_default:output_model_dir}'
+
+
+## Evaluation
+#
+amr_evaluation_corpus:
+  class_name: zensols.install.Resource
+  url: ${amr_trainer_default:url}
+  name: null
+
+amr_evaluation_corpus_installer:
+  class_name: zensols.install.Installer
+  base_directory: 'path: ${amr_trainer_default:corpus_dir}'
+  resources: 'instance: list: amr_evaluation_corpus'
+
+amr_evaluation_sent_dir_stash:
+  class_name: zensols.persist.DirectoryStash
+  path: 'path: ${amr_trainer_default:eval_dir}/parse-${amr_trainer_default:eval_model_name}-model'
+
+amr_evaluation_sent_persist_stash:
+  class_name: zensols.persist.ProtectiveStash
+  delegate: 'instance: amr_evaluation_sent_dir_stash'
+  log_errors: true
+
+amr_evaluation_sent_stash:
+  class_name: zensols.amr.AmrCorpusStash
+  delegate: 'instance: amr_evaluation_sent_persist_stash'
+  #limit: 3
+  chunk_size: 0
+  workers: 6
+  #workers: 1
+  source: 'instance: amr_evaluation_corpus_installer'
+  doc_parser: 'instance: ${amr_default:doc_parser}'
+
+amr_evaluator:
+  class_name: zensols.amr.Evaluator
+  vanilla_source: 'instance: amr_evaluation_corpus_installer'
+  doc_parser: 'instance: ${amr_default:doc_parser}'
+  amr_parser: 'instance: amr_parser'
+  corpus_stash: 'instance: amr_evaluation_sent_stash'
+  model_name: '${amr_trainer_default:model_name}'
+  temporary_dir: 'path: ${amr_trainer_default:eval_dir}/tmp'
+
+
+## Plotting and writing
+#
+amr_dumper:
+  class_name: zensols.amr.GraphvizDumper
+  target_dir: 'path: ${amr_default:report_dir}'
+  overwrite_dir: true

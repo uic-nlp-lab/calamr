@@ -1,0 +1,45 @@
+# description: scorer objects
+
+calamr_score_method:
+  class_name: zensols.calamr.score.CalamrScoreMethod
+  word_piece_doc_factory: 'instance: word_piece_doc_factory'
+  doc_graph_factory: 'instance: calamr_doc_graph_factory'
+  doc_graph_aligner: 'instance: calamr_doc_graph_aligner'
+
+calamr_scorer_methods:
+  calamr: >-
+    'calamr': 'calamr_score_method',
+
+nlp_scorer:
+  class_name: zensols.nlp.score.Scorer
+  methods: >-
+    instance: dict: {
+      ${nlp_scorer_methods:bleu}
+      ${nlp_scorer_methods:rouge}
+      ${amr_scorer_methods:smatch}
+      ${amr_scorer_methods:wlk}
+      ${calamr_scorer_methods:calamr}
+      }
+
+calamr_amr_corp_split_keys:
+  class_name: zensols.calamr.annotate.CorpusSplitKeyContainer
+  anon_doc_stash: 'instance: amr_anon_doc_factory_stash'
+  corpus_path: 'path: ../../split'
+  corpus_file_glob: '**/*-proxy.txt'
+  cache_file: 'path: ${amr_default:data_dir}/proxy-splits.dat'
+
+calamr_doc_scorer:
+  class_name: zensols.calamr.score.CalamrScorer
+  methods: >-
+    instance: dict: {
+      ${nlp_scorer_methods:bleu}
+      ${nlp_scorer_methods:rouge}
+      ${calamr_scorer_methods:calamr}
+      }
+  score_method: 'instance: calamr_score_method'
+  anon_doc_stash: 'instance: amr_anon_feature_doc_stash'
+  amr_corp_split_keys: 'instance: calamr_amr_corp_split_keys'
+  split_name: 'dev'
+  cache_dir: 'path: ${amr_default:data_dir}/scores-${calamr_doc_scorer:split_name}'
+  #doc_limit: 2
+

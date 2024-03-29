@@ -1,0 +1,137 @@
+# description: propbankdb application object context
+
+
+## PropBank definitions and embeddings
+#
+pbdb_frames_dist_resource:
+  class_name: zensols.install.Resource
+  url: 'https://zenodo.org/records/10806450/files/${propbankdb_default:dist_file_name}.zip'
+  name: v${propbankdb_default:version}
+
+pbdb_frames_dist_installer:
+  class_name: zensols.install.Installer
+  package_resource: '${propbankdb_default:package_name}'
+  resources: 'instance: list: pbdb_frames_dist_resource'
+
+
+## Database
+#
+# persisteres
+pbdb_sqlite_conn_manager:
+  class_name: zensols.propbankdb.InstallerConnectionManager
+  db_file: 'path: ${default:data_dir}/propbankdb.sqlite3'
+  installer: 'instance: pbdb_frames_dist_installer'
+
+pbdb_frameset_persister:
+  class_name: zensols.propbankdb.FramesetPersister
+  sql_file: 'resource(zensols.propbankdb): resources/frameset.sql'
+  conn_manager: 'instance: pbdb_sqlite_conn_manager'
+  row_factory: 'class: zensols.propbankdb.Frameset'
+  insert_name: insert_frameset
+  select_name: select_frameset
+  select_by_id_name: select_frameset_by_id
+  keys_name: select_frameset_keys
+  select_by_id_name: select_frameset_by_id
+
+pbdb_predicate_persister:
+  class_name: zensols.propbankdb.PredicatePersister
+  sql_file: 'resource(zensols.propbankdb): resources/frameset.sql'
+  conn_manager: 'instance: pbdb_sqlite_conn_manager'
+  row_factory: 'class: zensols.propbankdb.Predicate'
+  select_name: select_predicate
+  insert_name: insert_predicate
+  keys_name: select_predicate_keys
+  select_by_id_name: select_predicate_by_id
+
+pbdb_roleset_persister:
+  class_name: zensols.propbankdb.RolesetPersister
+  sql_file: 'resource(zensols.propbankdb): resources/frameset.sql'
+  conn_manager: 'instance: pbdb_sqlite_conn_manager'
+  row_factory: 'class: zensols.propbankdb.Roleset'
+  insert_name: insert_roleset
+  keys_name: select_roleset_keys
+  select_by_id_name: select_roleset_by_id
+
+pbdb_alias_persister:
+  class_name: zensols.propbankdb.AliasPersister
+  sql_file: 'resource(zensols.propbankdb): resources/frameset.sql'
+  conn_manager: 'instance: pbdb_sqlite_conn_manager'
+  row_factory: 'class: zensols.propbankdb.Alias'
+  insert_name: insert_alias
+  select_name: select_alias
+
+pbdb_example_persister:
+  class_name: zensols.propbankdb.ExamplePersister
+  sql_file: 'resource(zensols.propbankdb): resources/frameset.sql'
+  conn_manager: 'instance: pbdb_sqlite_conn_manager'
+  row_factory: 'class: zensols.propbankdb.Example'
+  insert_name: insert_example
+  select_name: select_example
+
+pbdb_role_persister:
+  class_name: zensols.propbankdb.RolePersister
+  sql_file: 'resource(zensols.propbankdb): resources/frameset.sql'
+  conn_manager: 'instance: pbdb_sqlite_conn_manager'
+  row_factory: 'class: zensols.propbankdb.Role'
+  insert_name: insert_role
+
+pbdb_role_link_persister:
+  class_name: zensols.propbankdb.RoleLinkPersister
+  sql_file: 'resource(zensols.propbankdb): resources/frameset.sql'
+  conn_manager: 'instance: pbdb_sqlite_conn_manager'
+  row_factory: 'class: zensols.propbankdb.RoleLink'
+  insert_name: insert_rolelink
+
+pbdb_function_persister:
+  class_name: zensols.propbankdb.FunctionPersister
+  sql_file: 'resource(zensols.propbankdb): resources/frameset.sql'
+  conn_manager: 'instance: pbdb_sqlite_conn_manager'
+  row_factory: 'class: zensols.propbankdb.Function'
+  insert_name: insert_function
+  select_name: select_function
+
+pbdb_relation_persister:
+  class_name: zensols.propbankdb.RelationPersister
+  sql_file: 'resource(zensols.propbankdb): resources/frameset.sql'
+  conn_manager: 'instance: pbdb_sqlite_conn_manager'
+  row_factory: 'class: zensols.propbankdb.Relation'
+  insert_name: insert_relation
+  select_name: select_relation
+
+
+# stashes
+pbdb_roleset_stash:
+  class_name: zensols.db.AlternateKeyBeanStash
+  persister: 'instance: pbdb_roleset_persister'
+  keys_name: select_roleset_ids
+  key_to_id_name: select_roleset_id_to_uid
+
+pbdb_predicate_stash:
+  class_name: zensols.db.AlternateKeyBeanStash
+  persister: 'instance: pbdb_predicate_persister'
+  keys_name: select_predicate_ids
+  key_to_id_name: select_predicate_id_to_uid
+
+pbdb_relation_stash:
+  class_name: zensols.db.AlternateKeyBeanStash
+  persister: 'instance: pbdb_relation_persister'
+  keys_name: select_relation_ids
+  key_to_id_name: select_relation_id_to_uid
+
+
+# client facade
+pbdb_db:
+  class_name: zensols.propbankdb.Database
+  conn_manager: 'instance: pbdb_sqlite_conn_manager'
+  function_persister: 'instance: pbdb_function_persister'
+  relation_persister: 'instance: pbdb_relation_persister'
+  role_link_persister: 'instance: pbdb_role_link_persister'
+  role_persister: 'instance: pbdb_role_persister'
+  alias_persister: 'instance: pbdb_alias_persister'
+  example_persister: 'instance: pbdb_example_persister'
+  roleset_persister: 'instance: pbdb_roleset_persister'
+  predicate_persister: 'instance: pbdb_predicate_persister'
+  frameset_persister: 'instance: pbdb_frameset_persister'
+  roleset_stash: 'instance: pbdb_roleset_stash'
+  predicate_stash: 'instance: pbdb_predicate_stash'
+  relation_stash: 'instance: pbdb_relation_stash'

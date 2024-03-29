@@ -1,0 +1,33 @@
+# description: scorer objects
+
+amr_smatch_score_method:
+  class_name: zensols.amr.score.SmatchScoreCalculator
+
+amr_wlk_score_method:
+  class_name: zensols.amr.wlk.score.WeisfeilerLemanKernelScoreCalculator
+
+amr_scorer_methods:
+  smatch: >-
+    'smatch': 'amr_smatch_score_method',
+  wlk: >-
+    'wlk': 'amr_wlk_score_method',
+
+nlp_scorer:
+  class_name: zensols.nlp.score.Scorer
+  methods: >-
+    instance: dict: {
+      ${nlp_scorer_methods:bleu}
+      ${nlp_scorer_methods:rouge}
+      ${amr_scorer_methods:smatch}
+      ${amr_scorer_methods:wlk}
+      }
+
+nlp_bleu_score_method:
+  # reverse sentences for bleu for sentence order summary, source
+  reverse_sents: true
+  # turn off warnings for shorter AMR sentence lengths
+  silence_warnings: true
+
+amr_score_parser:
+  class_name: zensols.amr.score.AmrScoreParser
+  doc_parser: 'instance: amr_human_anon_doc_parser'

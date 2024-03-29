@@ -1,0 +1,32 @@
+# description: embedding objects
+
+## Embedding
+#
+pbdb_embedding:
+  class_name: zensols.deepnlp.embed.DefaultTextWordEmbedModel
+  installer: 'instance: pbdb_frames_dist_installer'
+  resource: 'instance: pbdb_frames_dist_resource'
+  lowercase: False
+  # these are populated with the distribution meta.conf file after it is
+  # downloaded
+  name: NO_NAMAE
+  desc: NO_DESC
+  dimension: 0
+
+pbdb_embedding_populator:
+  class_name: zensols.propbankdb.embedpop.EmbeddingPopulator
+  embed_model: 'instance: pbdb_embedding'
+  function_persister: 'instance: pbdb_function_persister'
+  torch_config: 'instance: gpu_torch_config'
+
+pbdb_bank_obj_embedding_populator:
+  class_name: zensols.propbankdb.embedpop.EmbeddingBankObjectPopulator
+  embed_populator: 'instance: pbdb_embedding_populator'
+
+
+# configure framework to use it
+pbdb_roleset_persister:
+  populators: 'instance: list: pbdb_bank_obj_embedding_populator'
+
+pbdb_relation_persister:
+  populators: 'instance: list: pbdb_bank_obj_embedding_populator'

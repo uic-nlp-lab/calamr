@@ -1,0 +1,17 @@
+# description: format test results
+
+
+calamr_align_result_generator:
+  class_name: zensols.calamr.result.AlignmentResultGenerator
+  results_dir: 'path: ${calamr_default:results_dir}/aligns'
+  anon_doc_stash: 'instance: amr_anon_feature_doc_stash'
+  doc_graph_factory: 'instance: calamr_doc_graph_factory'
+  doc_graph_aligner: 'instance: calamr_doc_graph_aligner'
+
+calamr_result_analyzer:
+  class_name: zensols.calamr.result.ResultAnalyzer
+  parser_meta_file: 'resource(zensols.calamr): resources/meta/parse.csv'
+  results_dir: 'path: ${calamr_default:results_dir}/scores'
+  output_dir: 'path: ${calamr_default:results_dir}/condensed'
+  config_dir: 'path: ${calamr_default:results_dir}/config'
+  aligns_dir: ${calamr_align_result_generator:results_dir}

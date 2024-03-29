@@ -1,0 +1,69 @@
+# description: graph construction
+
+
+## Attribute constants and parameters
+#
+calamr_graph_attrib_context:
+  class_name: zensols.calamr.domain.GraphAttributeContext
+  ## components
+  #
+  embedding_resource: 'instance: calamr_embedding_resource'
+  propbank_db: 'instance: pbdb_db'
+  ## rendering
+  #
+  default_format_strlen: 4
+  ## constants
+  #
+  # initial capacities for all edges, which in some cases are later overriden
+  default_capacity: 1
+  # scalar multiplier for capacities between graph components
+  component_alignment_capacity: 1
+  # edges connected to document nodes instances
+  doc_capacity: >-
+    eval({'import': ['zensols.calamr as s']}): s.GraphEdge.MAX_CAPACITY
+  # capacities for edges connected to the sink
+  sink_capacity: >-
+    eval({'import': ['zensols.calamr as s']}): s.GraphEdge.MAX_CAPACITY
+  # hyperparams
+  #
+  # theshold cut off for creating component alignment edges
+  similarity_threshold: 0.3
+
+
+## Capacity calculation
+#
+# hyperparameters
+capacity_calculator_hyperparam:
+  class_name: zensols.datdesc.hyperparam.HyperparamSetLoader
+  data: 'resource(zensols.calamr): resources/hyperparam.yml'
+
+# calculates and the component alignment capacities
+calamr_capacity_calculator:
+  class_name: zensols.calamr.summary.capacity.CapacityCalculator
+  # components
+  #
+  embedding_populator: 'instance: pbdb_embedding_populator'
+  # config
+  #
+  # whether to include tokens in the dataframe for debugging
+  include_tokens: false
+  #
+  # whether to clear intermediate data structures after each iteration of the
+  # node alignment algorithm; turning this off speeds it up by ~75%; see
+  # implementation note
+  clear_align_node_iteration: false
+  #
+  # hyperparams
+  hyp: "call({'param': {'path': 'capacity_calculator'}}): capacity_calculator_hyperparam"
+
+
+## Optimal hyperparameters
+#
+calamr_hyperparam_resource:
+  class_name: zensols.calamr.hyperparam.HyperparameterResource
+  # hyperparams
+  hyp: "call({'param': {'path': 'capacity_calculator'}}): capacity_calculator_hyperparam"
+  optimize_file: 'resource(zensols.calamr): resources/optimal-hyperparams.csv'
+  criteria:
+    parser: spring
+    method: wlk

@@ -1,0 +1,83 @@
+diff --git a/amr_coref/coref/coref_featurizer.py b/amr_coref/coref/coref_featurizer.py
+index 26ee2a2..5e68fdc 100644
+--- a/amr_coref/coref/coref_featurizer.py
++++ b/amr_coref/coref/coref_featurizer.py
+@@ -1,6 +1,7 @@
+ import re
+ import logging
+ from   multiprocessing import Pool
++from   multiprocessing.pool import ThreadPool
+ from   tqdm import tqdm
+ import numpy
+ 
+@@ -224,6 +225,7 @@ class CorefFeaturizer(object):
+ #### Build the single data and the 2D matrix of head-mention -> antecedent pair
+ ###############################################################################
+ gfeaturizer, gmax_dist = None, None    # for multiprocessing
++use_multithreading = True
+ def build_coref_features(mdata, model, **kwargs):
+     chunksize = kwargs.get('feat_chunksize',          200)
+     maxtpc    = kwargs.get('feat_maxtasksperchild',   200)
+@@ -239,13 +241,16 @@ def build_coref_features(mdata, model, **kwargs):
+         feat_data[dn] = [None]*len(mlist)
+     # Loop through and get the pair features for all antecedents
+     pbar = tqdm(total=len(idx_keys), ncols=100, disable=not show_prog)
+-    with Pool(processes=processes, maxtasksperchild=maxtpc) as pool:
+-        for fdata in pool.imap_unordered(worker, idx_keys, chunksize=chunksize):
+-            dn, midx, sspans, dspans, words, sfeats, pfeats, slabels, plabels = fdata
+-            feat_data[dn][midx] = {'sspans':sspans,   'dspans':dspans, 'words':words,
+-                                   'sfeats':sfeats,   'pfeats':pfeats,
+-                                   'slabels':slabels, 'plabels':plabels}
+-            pbar.update(1)
++    if use_multithreading:
++        pool = Pool(processes=processes, maxtasksperchild=maxtpc)
++    else:
++        pool = ThreadPool(processes=processes)
++    for fdata in pool.imap_unordered(worker, idx_keys, chunksize=chunksize):
++        dn, midx, sspans, dspans, words, sfeats, pfeats, slabels, plabels = fdata
++        feat_data[dn][midx] = {'sspans':sspans,   'dspans':dspans, 'words':words,
++                               'sfeats':sfeats,   'pfeats':pfeats,
++                               'slabels':slabels, 'plabels':plabels}
++        pbar.update(1)
+     pbar.close()
+     # Error check
+     for dn, feat_list in feat_data.items():
+diff --git a/amr_coref/coref/inference.py b/amr_coref/coref/inference.py
+index e2949ad..403ff6f 100644
+--- a/amr_coref/coref/inference.py
++++ b/amr_coref/coref/inference.py
+@@ -6,10 +6,12 @@ from   .amr_coref_model import AMRCorefModel
+ from   .coref_data_loader import get_data_loader_from_data
+ from   .build_coref_tdata import get_serialized_graph_data
+ from   .clustering import get_predicted_clusters
++from   . import coref_featurizer
+ 
+ 
+ class Inference(object):
+-    def __init__(self, model_dir, show_prog=False, greedyness=0.0, device=None, **kwargs):
++    def __init__(self, model_dir, show_prog=False, greedyness=0.0, device=None,
++                 use_multithreading=True, **kwargs):
+         self.model = AMRCorefModel.from_pretrained(model_dir, device=device)
+         # overide max_dist is in kwargs
+         if 'max_dist' in kwargs:
+@@ -19,6 +21,8 @@ class Inference(object):
+         self.show_prog     = show_prog
+         self.greedyness    = greedyness
+         self.cluster_dicts = {}     # saved for debug
++        coref_featurizer.use_multithreading = use_multithreading
++        self._use_multithreading = use_multithreading
+ 
+     # Coreference graph strings or penman graphs
+     # !!! Note that if loading penman graphs, they must have been encoded using the NoOpModel
+@@ -44,7 +48,10 @@ class Inference(object):
+         # combine everything and save to a temporary file
+         tdata_dict = {'clusters':clusters, 'doc_gids':doc_gids, 'gdata':gdata_dict}
+         # Create the data loader
+-        self.test_dloader = get_data_loader_from_data(tdata_dict, self.model, show_prog=self.show_prog, shuffle=False)
++        dloader_params = dict(show_prog=self.show_prog, shuffle=False)
++        if not self._use_multithreading:
++            dloader_params['num_workers'] = 0
++        self.test_dloader = get_data_loader_from_data(tdata_dict, self.model, **dloader_params)
+         self.mdata        = self.test_dloader.dataset.mdata
+         # Run the model and cluster the data
+         results = self.model.process(self.test_dloader, self.show_prog)

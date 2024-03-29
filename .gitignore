@@ -1,0 +1,27 @@
+# jupyternotebooks
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# default python
+*.pyc
+*_flymake.py
+
+# log files
+*.log
+
+# adds
+/target
+/data
+/cache
+
+# environment
+/pyenv
+
+# files that have to be downloaded and added
+/download
+
+# results
+/scores.csv
+
+# examples
+/align-micro

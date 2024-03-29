@@ -1,0 +1,406 @@
+,doc_sent_idx,sent_type,snt
+3596,1,s,A Signaling Pathway Involving TGF-β2 and Snail in Hair Follicle Morphogenesis (PMID:15630473)
+3597,2,a,"In a common theme of organogenesis, certain cells within a multipotent epithelial sheet exchange signals with their neighbors and develop into a bud structure."
+3598,3,a,"Using hair bud morphogenesis as a paradigm, we employed mutant mouse models and cultured keratinocytes to dissect the contributions of multiple extracellular cues in orchestrating adhesion dynamics and proliferation to shape the cluster of cells involved."
+3599,4,a,We found that transforming growth factor β2 signaling is necessary to transiently induce the transcription factor Snail and activate the Ras-mitogen-activated protein kinase (MAPK) pathway in the bud.
+3600,5,a,"In the epidermis, <i>Snail</i> misexpression leads to hyperproliferation and a reduction in intercellular adhesion."
+3601,6,a,"When <i>E-cadherin</i> is transcriptionally down-regulated, associated adhesion proteins with dual functions in signaling are released from cell-cell contacts, a process which we demonstrate leads to Ras-MAPK activation."
+3602,7,a,"These studies provide insights into how multipotent cells within a sheet are stimulated to undergo transcriptional changes that result in proliferation, junctional remodeling, and bud formation."
+3603,8,a,This novel signaling pathway further weaves together the web of different morphogens and downstream transcriptional events that guide hair bud formation within the developing skin.
+3604,9,a,"The study of hair follicle morphogenesis provides insights into how cells within a sheet can be triggered to proliferate, remodel, and form buds - a recurring theme in development"
+3605,10,s,Introduction
+3606,11,b,Mammalian development involves the morphogenesis of complex three-dimensional structures from seemingly uniform sheets or masses of cells.
+3607,12,b,"A simple bud-like structure initiates the formation of many organs, including lungs, spinal cord, mammary glands, and hair follicles [<xref ref-type=""bibr"" rid=""pbio-0030011-b01"">1</xref>]."
+3608,13,b,"The multipotent, adhering epithelial cells are typically attached to an underlying basal lamina that polarizes the epithelial sheet and separates it from surrounding mesenchyme."
+3609,14,b,Budding morphogenesis is guided by a reciprocal exchange of signals between epithelium and mesenchyme to specify the identity of the organ that will form and to govern its growth.
+3610,15,b,"At the helm of these molecular communication pathways are Wnts, bone morphogenic proteins (BMPs), transforming growth factor βs (TGF-βs), and fibroblast growth factors (FGFs)."
+3611,16,b,"Through activation of cell surface transmembrane receptors, these external signaling molecules trigger distinct cascades of intracellular events that culminate in changes in gene expression, growth, and differentiation [<xref ref-type=""bibr"" rid=""pbio-0030011-b02"">2</xref>]."
+3612,17,b,How this constellation of signals collaborates in tailoring each budding process so that it executes a distinct morphogenetic program has yet to be comprehensively defined.
+3613,18,b,"However, the process appears to be patterned at the initial stages of bud formation, since the relative importance of these pathways and their downstream effectors differ as buds begin to develop and cell fates are specified."
+3614,19,b,The development of a bud requires a number of coordinated changes in the behavior of the targeted cells within an epithelial sheet.
+3615,20,b,"The process must be accompanied by alterations in the proliferation, polarity, shape, and adhesiveness of selected cells, as well as by modifications in their underlying basal lamina."
+3616,21,b,"Thus, extracellular epithelial-mesenchymal crosstalk must be intricately orchestrated to couple the determination of distinct cell fates with the contemporaneous remodeling of the physical and structural properties of the cell."
+3617,22,b,"Among the few dispensable organs, hair follicles offer an excellent model system to study epithelial bud formation."
+3618,23,b,Mammalian skin epithelium begins as a single sheet of multipotent ectodermal cells.
+3619,24,b,"During development, specialized mesenchymal cells populate the skin in a spatially defined pattern to initiate the complex epithelial-mesenchymal crosstalk that will specify the bud [<xref ref-type=""bibr"" rid=""pbio-0030011-b03"">3</xref>]."
+3620,25,b,"Once committed, a small cluster of epithelial cells, the placode, instructs a group of underlying mesenchymal cells to condense and form the nascent dermal papilla, which will be a permanent fixture of the hair follicle."
+3621,26,b,"Subsequent exchanges between the placode and nascent dermal papilla result in further growth of the follicle into the underlying dermis, or down-growth, and eventual differentiation into the six concentric layers of the mature follicle."
+3622,27,b,"Previously, we delineated how two respective epithelial and mesenchymal signals, Wnts and the BMP-inhibitory factor noggin, function in concert to induce lymphoid enhancer factor-1/β-catenin (LEF-1/β-catenin)-mediated gene transcription within the follicle placode [<xref ref-type=""bibr"" rid=""pbio-0030011-b04"">4</xref>]."
+3623,28,b,"The downstream changes elicited through convergence of these two early signaling pathways include down-regulation of the gene encoding E-cadherin, the prototypical epithelial cadherin that forms the transmembrane core of intercellular adherens junctions (AJs) [<xref ref-type=""bibr"" rid=""pbio-0030011-b05"">5</xref>]."
+3624,29,b,"We subsequently showed that when E-cadherin is transgenically elevated in mouse skin, hair follicle morphogenesis is blocked, suggesting that E-cadherin down-regulation is a critical event in governing the adhesion dynamics necessary for budding morphogenesis [<xref ref-type=""bibr"" rid=""pbio-0030011-b04"">4</xref>]."
+3625,30,b,"Like LEF-1, E-cadherin also binds to β-catenin."
+3626,31,b,"At sites of cell-cell contact, however, E-cadherin-β-catenin complexes recruit α-catenin, which in turn coordinates the associated actin polymerization dynamics necessary to stabilize nascent AJs and integrate the cytoskeleton across an epithelial sheet [<xref ref-type=""bibr"" rid=""pbio-0030011-b06"">6</xref>,<xref ref-type=""bibr"" rid=""pbio-0030011-b07"">7</xref>,<xref ref-type=""bibr"" rid=""pbio-0030011-b08"">8</xref>]."
+3627,32,b,"α-Catenin also binds to the class III Lin-1, Isl-1, Mec-3 (LIM) protein Ajuba (a member of the zyxin family of proteins), which appears to function dually in both adhesion and in activation of the Ras-mitogen-activated protein kinase (MAPK) pathway [<xref ref-type=""bibr"" rid=""pbio-0030011-b09"">9</xref>,<xref ref-type=""bibr"" rid=""pbio-0030011-b10"">10</xref>]."
+3628,33,b,"Through these links, AJs appear able to couple adhesion with cytoskeletal dynamics as well as with nuclear and cytoplasmic signaling."
+3629,34,b,"This provides a framework for conceptualizing why E-cadherin levels appear to impact upon a plethora of developmental processes (reviewed in [<xref ref-type=""bibr"" rid=""pbio-0030011-b11"">11</xref>])."
+3630,35,b,"As we probed more deeply into the underlying mechanisms governing <i>E-cadherin</i> promoter activity, we were intrigued by the close proximity of the LEF-1/β-catenin binding site to a site known to bind the Snail/Slug family of zinc finger transcriptional repressor proteins [<xref ref-type=""bibr"" rid=""pbio-0030011-b12"">12</xref>,<xref ref-type=""bibr"" rid=""pbio-0030011-b13"">13</xref>,<xref ref-type=""bibr"" rid=""pbio-0030011-b14"">14</xref>,<xref ref-type=""bibr"" rid=""pbio-0030011-b15"">15</xref>]."
+3631,36,b,"Both activity of Snail and down-regulation of E-cadherin play pivotal roles in epithelial to mesenchymal transitions (EMTs), typified by the transformation of polarized, adhering epithelial cells into motile mesenchymal cells [<xref ref-type=""bibr"" rid=""pbio-0030011-b16"">16</xref>,<xref ref-type=""bibr"" rid=""pbio-0030011-b17"">17</xref>]."
+3632,37,b,"Bud formation differs from an EMT in that E-cadherin activity needs to be down-regulated but not prevented, so that adhesive junctions are remodeled rather than quantitatively impaired."
+3633,38,b,"Supportive of an underlying ability to fine-tune cadherin expression at the transcriptional level, Snail seems to have an additive effect with LEF-1/β-catenin in negatively modulating <i>E-cadherin</i> promoter activity [<xref ref-type=""bibr"" rid=""pbio-0030011-b04"">4</xref>]."
+3634,39,b,"In the present study, we discovered that Snail is expressed briefly at an early stage of hair bud formation, when E-cadherin down-regulation and activation of proliferation take place."
+3635,40,b,"Thereafter, Snail disappears and remains absent during subsequent follicle down-growth and maturation."
+3636,41,b,"This exquisite pattern appears to be functionally relevant since altering it in vivo correspondingly affects features associated with hair bud formation, including down-regulation of E-cadherin, increased proliferation, and repressed terminal differentiation."
+3637,42,b,"Although the temporal spike of Snail in the hair bud is reflected at the mRNA level and seems to follow Wnt signaling and BMP inhibition, LEF-1/β-catenin activation does not appear to induce <i>Snail</i> gene expression in embryonic skin keratinocytes."
+3638,43,b,"In contrast, we provide in vitro, transgenic (Tg), and gene targeting evidence to show that TGF-β2 and small phenotype– and mothers against decapentaplegic–related protein 2 (SMAD2) signaling are upstream inducers of <i>Snail</i> gene expression in skin epithelium."
+3639,44,b,"In the absence of TGF-β2 signaling and <i>Snail</i> gene expression, hair placodes can form, but further follicle down-growth is blocked."
+3640,45,b,"Our studies point to the view that Snail likely functions downstream of cell fate specification, at a stage where the bud begins to exhibit enhanced proliferation and migration."
+3641,46,s,Results
+3642,47,b,<i>Snail</i> mRNA and Protein Are Expressed Transiently at the Hair Bud Stage of Follicle Morphogenesis
+3643,48,b,"Although Snail family members are most frequently associated with EMTs, they also participate in many malignant processes involving a down-regulation but not a quantitative abrogation of intercellular junctions [<xref ref-type=""bibr"" rid=""pbio-0030011-b18"">18</xref>]."
+3644,49,b,The range of developmental processes in which Snail family members have been implicated thus includes the type of epithelial remodeling that is observed in hair follicle bud formation.
+3645,50,b,"Given our prior observation that exogenously added Snail can participate with LEF-1/β-catenin in down-regulating <i>E-cadherin</i> expression in keratinocytes [<xref ref-type=""bibr"" rid=""pbio-0030011-b04"">4</xref>], coupled with the established requirement for LEF-1/β-catenin in hair follicle morphogenesis [<xref ref-type=""bibr"" rid=""pbio-0030011-b04"">4</xref>,<xref ref-type=""bibr"" rid=""pbio-0030011-b19"">19</xref>], we turned to addressing whether Snail/Slug family members might also participate in the process."
+3646,51,b,PCR analyses identified transient <i>Snail</i> mRNA expression during a period of skin embryogenesis when waves of hair follicles are forming (unpublished data).
+3647,52,b,"To pinpoint specifically where <i>Snail</i> mRNA is expressed in the developing skin, we conducted in situ hybridization using a cRNA probe unique to the <i>Snail</i> 3′ untranslated region (UTR)."
+3648,53,b,"Embryonic day 17.5 (E17.5) was chosen, since the multiple waves of follicle morphogenesis occurring at this time enabled us to evaluate Snail expression at different stages of the process."
+3649,54,b,"As shown in <xref ref-type=""fig"" rid=""pbio-0030011-g001"">Figure 1</xref>A, specific hybridization was detected within the epithelium of nascent hair buds."
+3650,55,b,"By contrast, as follicles progressed further through their development (e.g., germ and peg stages), they exhibited no signs of hybridization (<xref ref-type=""fig"" rid=""pbio-0030011-g001"">Figure 1</xref>A)."
+3651,56,b,"The transient nature of <i>Snail</i> mRNA expression during follicle development was most apparent in hybridized skin sections containing follicles from two different waves of morphogenesis (as shown in <xref ref-type=""fig"" rid=""pbio-0030011-g001"">Figure 1</xref>)."
+3652,57,b,Hybridizing hair buds from a later wave appeared juxtaposed with nonhybridizing follicles from an earlier wave.
+3653,58,b,"To determine whether this transient nature of <i>Snail</i> mRNA expression is reflected at the protein level, we generated an antibody against the N-terminal sequence that resides upstream of the more conserved zinc finger domains."
+3654,59,b,"As judged by Western blot analysis, the antibody did not detect endogenous proteins from cultured keratinocytes, but it did yield a band of the expected size from keratinocytes transiently expressing a hemagglutinin (HA)-tagged Snail protein (<xref ref-type=""fig"" rid=""pbio-0030011-g001"">Figure 1</xref>B)."
+3655,60,b,"The antibody also recognized a band corresponding to the size of endogenous Snail (approximately 28 kDa) in lysates from embryonic mouse skin, the temporal appearance of which corresponded to the waves of hair follicle morphogenesis from E15.5 to newborn when over 90% of the hair on the mouse is formed (<xref ref-type=""fig"" rid=""pbio-0030011-g001"">Figure 1</xref>B)."
+3656,61,b,"Consistent with the Western blot data, immunohistochemical analysis did not detect Snail in single-layered E13.5 epidermis (<xref ref-type=""fig"" rid=""pbio-0030011-g001"">Figure 1</xref>C) nor in the placode, which is the earliest morphological sign of the commitment of multipotent cells of the embryonic ectoderm to a hair cell fate (<xref ref-type=""fig"" rid=""pbio-0030011-g001"">Figure 1</xref>D)."
+3657,62,b,"Consistent with the in situ hybridization results, anti-Snail antibody labeled only hair buds and not follicles at more mature stages of development (<xref ref-type=""fig"" rid=""pbio-0030011-g001"">Figure 1</xref>E)."
+3658,63,b,"Taken together, the anti-Snail antibody appeared to be specific for its target protein."
+3659,64,b,It did not detect other Snail family members known to be expressed in keratinocytes and/or skin (unpublished data).
+3660,65,b,"Furthermore, the immunohistochemical data paralleled our <i>Snail</i> in situ hybridization data revealing transient <i>Snail</i> expression at the hair bud stage (<xref ref-type=""fig"" rid=""pbio-0030011-g001"">Figure 1</xref>A)."
+3661,66,b,"As judged by immunohistochemistry, Snail protein was localized to the nuclei of the hair bud cells (<xref ref-type=""fig"" rid=""pbio-0030011-g001"">Figure 1</xref>E)."
+3662,67,b,"This feature was consistent with Snail's known function as a transcriptional repressor [<xref ref-type=""bibr"" rid=""pbio-0030011-b12"">12</xref>,<xref ref-type=""bibr"" rid=""pbio-0030011-b13"">13</xref>]."
+3663,68,b,"Additionally, anti-Snail labeling was detected in only three of the four major waves of follicle morphogenesis."
+3664,69,b,"Snail was not found in the buds of guard hairs that are the earliest of all hairs to form (at E13.5), and which constitute less than 5% of the mouse coat (unpublished data)."
+3665,70,b,"As judged by immunofluorescence with antibodies against the proliferating nuclear antigen Ki67, the timing of Snail expression coincided with the stage at which the developing follicle enhanced its proliferation and down-growth (<xref ref-type=""fig"" rid=""pbio-0030011-g001"">Figure 1</xref>F)."
+3666,71,b,"Immunohistochemistry with antibodies against the active (phosphorylated) form of MAPK (pMAPK) marked a subset of the proliferating (Ki67-positive) cells, and pMAPK-positive cells were enriched in the hair bud (<xref ref-type=""fig"" rid=""pbio-0030011-g001"">Figure 1</xref>G)."
+3667,72,b,"The timing of Snail induction and Ki67 and pMAPK enrichment in the hair bud appeared to follow closely the induction of LEF-1/β-catenin activity, known to initiate in the hair placode stage [<xref ref-type=""bibr"" rid=""pbio-0030011-b20"">20</xref>]."
+3668,73,b,"However, like placodes, hair buds exhibited down-regulation in E-cadherin expression (<xref ref-type=""fig"" rid=""pbio-0030011-g001"">Figure 1</xref>H; see also [<xref ref-type=""bibr"" rid=""pbio-0030011-b04"">4</xref>])."
+3669,74,s,Sustained Expression of Snail Results in Epidermal Hyperproliferation and Differentiation Defects in Tg Mouse Skin
+3670,75,b,The striking spike of Snail expression coincident with hair bud formation and enhanced proliferation prompted us to examine the consequences of ectopically expressing Snail elsewhere in mouse skin epidermis.
+3671,76,b,"To distinguish Tg from endogenous Snail, we used the HA-epitope, shown previously not to alter Snail's transcriptional activity [<xref ref-type=""bibr"" rid=""pbio-0030011-b12"">12</xref>]."
+3672,77,b,"Of 20 <i>K14-Snail[HA]</i> Tg animals generated, three expressed the transgene and all exhibited analogous phenotypes."
+3673,78,b,Mice that integrated the transgene at the single-cell stage died at or shortly after birth.
+3674,79,b,The three surviving full-Tg founder mice harbored transgene integrations that gave stable transmission of mosaic <i>Snail</i> gene expression through the germline.
+3675,80,b,Progressively poor health necessitated our sacrificing most offspring from these lines within a year of birth.
+3676,81,b,"As <i>Snail</i> Tg animals grew, they became distinguished by their small size, short tails, and flaky skin (<xref ref-type=""fig"" rid=""pbio-0030011-g002"">Figure 2</xref>A)."
+3677,82,b,"Histological analyses of 3-d old (P3) mice revealed mosaic patches marked by epidermal thickening (<xref ref-type=""fig"" rid=""pbio-0030011-g002"">Figure 2</xref>B)."
+3678,83,b,"The mosaic morphology was reflected at the level of Tg Snail protein, with only the hyperthickened regions expressing nuclear HA-tagged Snail (<xref ref-type=""fig"" rid=""pbio-0030011-g002"">Figure 2</xref>C)."
+3679,84,b,"These hyperthickened areas were marked by excessive proliferation, as revealed by antibodies against the proliferating nuclear antigen Ki67 (<xref ref-type=""fig"" rid=""pbio-0030011-g002"">Figure 2</xref>D and <xref ref-type=""fig"" rid=""pbio-0030011-g002"">2</xref>E)."
+3680,85,b,"Activated, pMAPK-positive cells were also prevalent in these areas (<xref ref-type=""fig"" rid=""pbio-0030011-g002"">Figure 2</xref>F and <xref ref-type=""fig"" rid=""pbio-0030011-g002"">2</xref>G), as were cells expressing keratin 6, a keratin induced in the suprabasal layers of hyperproliferative skin (<xref ref-type=""fig"" rid=""pbio-0030011-g002"">Figure 2</xref>H and <xref ref-type=""fig"" rid=""pbio-0030011-g002"">2</xref>I)."
+3681,86,b,"Expression of the <i>Snail</i> transgene did not block terminal differentiation in the hyperproliferative epidermis, but it distorted it markedly (<xref ref-type=""fig"" rid=""pbio-0030011-g003"">Figure 3</xref>A–<xref ref-type=""fig"" rid=""pbio-0030011-g003"">3</xref>H)."
+3682,87,b,"Typical of most hyperproliferating conditions, Snail expression led to a large expansion in layers with spinous and granular morphology."
+3683,88,b,"Additionally, however, was a marked and variable expansion of keratin 5 (K5), normally restricted to the innermost basal layer (see <xref ref-type=""fig"" rid=""pbio-0030011-g003"">Figure 3</xref>)."
+3684,89,b,"Although the failure of <i>Snail</i>-null mice to develop past gastrulation [<xref ref-type=""bibr"" rid=""pbio-0030011-b21"">21</xref>] precluded our ability to study the loss of Snail function in skin development, a good correlation emerged between the expression of Snail protein and the extension of K5, Ki67, and pMAPK suprabasally (compare data in <xref ref-type=""fig"" rid=""pbio-0030011-g002"">Figures 2</xref> and <xref ref-type=""fig"" rid=""pbio-0030011-g003"">3</xref>)."
+3685,90,b,The changes in hyperproliferation and differentiation were not initially accompanied by gross signs of epithelial invaginations.
+3686,91,b,"With age, however, epidermal folds and undulations developed in areas where Snail was expressed, and proliferative markers persisted in these regions (<xref ref-type=""fig"" rid=""pbio-0030011-g003"">Figure 3</xref>I and <xref ref-type=""fig"" rid=""pbio-0030011-g003"">3</xref>J; anti-cyclin D staining)."
+3687,92,b,"The undulations were accompanied by partial dissolution of the underlying basement membrane (<xref ref-type=""fig"" rid=""pbio-0030011-g003"">Figure 3</xref>K and <xref ref-type=""fig"" rid=""pbio-0030011-g003"">3</xref>L)."
+3688,93,b,"Aberrant staining was also observed with antibodies against components of the hemidesmosomes, which provide strong adhesion of basal epidermal cells to the underlying basal lamina (<xref ref-type=""fig"" rid=""pbio-0030011-g003"">Figure 3</xref>M and <xref ref-type=""fig"" rid=""pbio-0030011-g003"">3</xref>N)."
+3689,94,b,"Interestingly, similar types of alterations occur in the basement membrane in the hair bud of embryonic and newborn mice when Snail is normally expressed."
+3690,95,b,The fact that the basement membrane separating the epidermis from the dermis is altered only in the adult Tg animals suggests the involvement of intermediary factors not as readily available in the epidermis as they are in the follicle.
+3691,96,s,Possible Links between Epidermal Hyperproliferation and Down-regulation of AJ Proteins in <i>Snail</i> Tg Mice
+3692,97,b,"Given that the <i>E-cadherin</i> promoter is a direct target for Snail-mediated repression in vitro [<xref ref-type=""bibr"" rid=""pbio-0030011-b04"">4</xref>,<xref ref-type=""bibr"" rid=""pbio-0030011-b12"">12</xref>,<xref ref-type=""bibr"" rid=""pbio-0030011-b13"">13</xref>], and that E-cadherin was down-regulated in Snail-expressing hair buds, we examined the status of E-cadherin and other AJ proteins within regions of hyperproliferative epidermis where Tg Snail was present (<xref ref-type=""fig"" rid=""pbio-0030011-g004"">Figure 4</xref>A)."
+3693,98,b,"In these regions, immunofluorescence staining of E-cadherin and α-catenin were markedly diminished."
+3694,99,b,"In contrast, the intensity of antibody staining for two other AJ proteins, β-catenin and Ajuba, was still strong."
+3695,100,b,"Interestingly, however, despite appreciable immunofluorescence, localization of β-catenin and Ajuba appeared to be largely cytoplasmic rather than at cell-cell borders (<xref ref-type=""fig"" rid=""pbio-0030011-g004"">Figure 4</xref>A insets)."
+3696,101,b,Architectural differences in the epidermis made Western blot analyses somewhat difficult to gauge.
+3697,102,b,"However, in regions such as ear skin, where the highest levels of Snail protein were expressed, the effects were accentuated."
+3698,103,b,"In both back skin and ear skin, overall levels of E-cadherin and α-catenin were reduced, under conditions where β-catenin and Ajuba levels remained unchanged relative to controls (<xref ref-type=""fig"" rid=""pbio-0030011-g004"">Figure 4</xref>B)."
+3699,104,b,"Taken together, these data were consistent with our results obtained from immunofluorescence microscopy."
+3700,105,b,"A priori, the decrease in α-catenin levels could be due to either direct transcriptional repression by Snail or perturbations in AJ formation caused by the decrease in <i>E-cadherin</i> gene expression."
+3701,106,b,"To distinguish between these possibilities, we tested whether α-catenin levels could be restored by exogenous expression of <i>E-cadherin</i> in Snail-expressing keratinocytes."
+3702,107,b,"As shown in <xref ref-type=""fig"" rid=""pbio-0030011-g004"">Figure 4</xref>C, transiently transfected keratinocytes expressing HA-tagged Snail displayed a loss of E-cadherin and α-catenin at cell-cell borders."
+3703,108,b,"Coexpression of exogenous HA-tagged E-cadherin not only enabled cell-cell border localization of E-cadherin protein, but also rescued the cell-cell border staining of α-catenin (<xref ref-type=""fig"" rid=""pbio-0030011-g004"">Figure 4</xref>C)."
+3704,109,b,The ability to restore α-catenin expression and localization under these conditions argues against the notion that Snail transcriptionally represses <i>α-catenin.</i>
+3705,110,b,"Rather, the findings are consistent with a previous report that E-cadherin is required for the translation of <i>α-catenin</i> mRNA [<xref ref-type=""bibr"" rid=""pbio-0030011-b22"">22</xref>]."
+3706,111,b,"Despite the reductions in AJ markers, Tg skin still displayed sealed membranes and intercellular junctions that were largely intact, as judged by ultrastructural analyses (unpublished data)."
+3707,112,b,"In this respect, the skin epithelium resembled that of the hair bud, where the down-regulation in junction proteins is permissive for cell-cell remodeling without abrogating intercellular adhesion."
+3708,113,b,"The similarities between <i>Snail</i> Tg epidermis and hair buds extended to the hyperproliferative state, leading us to wonder whether the down-regulation of AJ proteins might contribute to this condition."
+3709,114,b,"Given the increase in pMAPK staining in <i>Snail</i> Tg epidermis (see <xref ref-type=""fig"" rid=""pbio-0030011-g002"">Figure 2</xref>G), we used pMAPK levels as our assay to test whether the loss of E-cadherin contributed to the Snail-mediated increase in proliferation."
+3710,115,b,"Consistent with our in vivo observations, transfected keratinocytes expressing Snail exhibited a substantial increase in pMAPK levels relative to control cells (<xref ref-type=""fig"" rid=""pbio-0030011-g004"">Figure 4</xref>D)."
+3711,116,b,Coexpression of E-cadherin with Snail appeared to abrogate this effect.
+3712,117,b,"Together, these findings raised the possibility that an AJ-associated protein that is normally sequestered at the plasma membrane may participate in a proliferation signaling pathway when AJs are deconstructed."
+3713,118,b,"Numerous studies have correlated a down-regulation of E-cadherin with a translocation of β-catenin to the nucleus and a transactivation of genes that are regulated by the LEF-1/T cell factor (TCF) family of DNA binding proteins [<xref ref-type=""bibr"" rid=""pbio-0030011-b23"">23</xref>,<xref ref-type=""bibr"" rid=""pbio-0030011-b24"">24</xref>,<xref ref-type=""bibr"" rid=""pbio-0030011-b25"">25</xref>]."
+3714,119,b,"The presence of nuclear cyclin D in hyperproliferative <i>Snail</i> Tg epidermis was particularly intriguing since prior studies have reported <i>cyclin D</i> gene as a direct target of TCF/β-catenin transcription [<xref ref-type=""bibr"" rid=""pbio-0030011-b26"">26</xref>]."
+3715,120,b,"This said, we did not detect nuclear β-catenin in our Tg epidermis, and mating the Snail Tg mice against the TOPGal reporter mouse [<xref ref-type=""bibr"" rid=""pbio-0030011-b20"">20</xref>] gave no signs of ectopic LEF-1/Tcf/β-catenin activity (unpublished data)."
+3716,121,b,We next turned to the presence of cytoplasmic Ajuba for a possible mechanistic link to the proliferative increase in our <i>Snail</i> Tg epidermis.
+3717,122,b,"In addition to its documented ability to bind α-catenin [<xref ref-type=""bibr"" rid=""pbio-0030011-b10"">10</xref>], Ajuba can also associate with growth factor receptor-bound protein-2 (Grb-2)/son of sevenless (Sos), the nucleotide exchange factor for Ras, which is upstream from activation of MAPK [<xref ref-type=""bibr"" rid=""pbio-0030011-b09"">9</xref>]."
+3718,123,b,"Given the increase in pMAPK staining in Tg skin, we examined the possibility that Ajuba might have changed its binding partner in Snail-expressing epidermis."
+3719,124,b,"Interestingly, Ajuba was readily detected in anti-Grb-2 immunoprecipitates of protein lysates from skins of <i>Snail</i> Tg mice but not from the corresponding wild-type (WT) animals (<xref ref-type=""fig"" rid=""pbio-0030011-g004"">Figure 4</xref>E)."
+3720,125,b,"When these experiments were repeated with <i>α-catenin</i>-null epidermis, a similar Grb-2-Ajuba association was detected, and again, this interaction was not detected in the protein extracts from control littermate skin (<xref ref-type=""fig"" rid=""pbio-0030011-g004"">Figure 4</xref>E)."
+3721,126,b,"Together, these data demonstrate that the reduction in α-catenin levels, either by Snail-mediated down-regulation of <i>E-cadherin</i> or by <i>α-catenin</i> conditional targeting, allows Ajuba to interact with Grb-2/Sos."
+3722,127,b,"If the competition between Grb-2/Sos and α-catenin for Ajuba is functionally relevant to the hyperproliferative state of a keratinocyte, then overexpression of Ajuba would be expected to bypass the competition and promote activation of the Ras-MAPK pathway in WT keratinocytes."
+3723,128,b,"Indeed, when serum-starved keratinocytes were transiently transfected with an Ajuba expression vector, the levels of pMAPK were not only elevated but also comparable to those transfected with the <i>K14-HASnail</i> transgene (<xref ref-type=""fig"" rid=""pbio-0030011-g004"">Figure 4</xref>F)."
+3724,129,b,"This activation was abolished when cells were treated with a small peptide inhibitor that specifically interrupts the Grb-2/Sos interaction (<xref ref-type=""fig"" rid=""pbio-0030011-g004"">Figure 4</xref>F; see lanes marked “inh”) [<xref ref-type=""bibr"" rid=""pbio-0030011-b27"">27</xref>]."
+3725,130,b,"Ajuba's pre-LIM domain is the segment that associates with Grb-2's Src-homology 3 domain [<xref ref-type=""bibr"" rid=""pbio-0030011-b09"">9</xref>]."
+3726,131,b,"When this domain was overexpressed in serum-starved keratinocytes, a comparable elevation in pMAPK was observed (<xref ref-type=""fig"" rid=""pbio-0030011-g004"">Figure 4</xref>F)."
+3727,132,b,"As expected, the small peptide inhibitor that interrupts the Grb-2/Sos association blocked the effects."
+3728,133,b,"These data suggested that by elevating cytosolic Ajuba levels, Ajuba's pre-LIM domain may associate with Grb-2/Sos in a manner that stimulates its nucleotide exchange activity and leads to activation of the Ras-MAPK pathway."
+3729,134,b,"Although this pathway provides one mechanism by which Snail expression and proliferation may be coupled in skin epithelium, proliferative circuitries involving AJs are known to be complex and often interwoven."
+3730,135,b,Future studies will be needed to systematically dissect these putative intricacies at a molecular level.
+3731,136,s,Probing the Regulation of <i>Snail</i> Gene Expression Reveals an Essential Link to TGF-β2 Signaling in the Developing Hair Bud
+3732,137,b,The temporal spike of <i>Snail</i> mRNA expression in the hair bud prompted us to consider what factor(s) may be regulating the <i>Snail</i> gene.
+3733,138,b,"A variety of extracellular signals have an impact on the cell type-specific expression of different Snail family members, and many of them, including Wnts, BMPs, FGFs, and TGF-βs, also affect hair bud development [<xref ref-type=""bibr"" rid=""pbio-0030011-b02"">2</xref>,<xref ref-type=""bibr"" rid=""pbio-0030011-b16"">16</xref>,<xref ref-type=""bibr"" rid=""pbio-0030011-b28"">28</xref>]."
+3734,139,b,"Since Snail is not expressed in cultured skin keratinocytes that secrete active BMPs and FGFs (see <xref ref-type=""fig"" rid=""pbio-0030011-g001"">Figure 1</xref>B), we focused our attention on Wnt and TGF-β signaling as more likely candidates for Snail induction in this cell type."
+3735,140,b,"Previously, we showed that effective transmission of a Wnt-3a signal in cultured keratinocytes can be achieved through their exposure to the BMP inhibitor noggin, which induces LEF-1 expression [<xref ref-type=""bibr"" rid=""pbio-0030011-b04"">4</xref>]."
+3736,141,b,"In vitro, these conditions down-regulated the <i>E-cadherin</i> promoter and induced a LEF-1/β-catenin-sensitive reporter gene, <i>TOPFLASH</i> [<xref ref-type=""bibr"" rid=""pbio-0030011-b04"">4</xref>]."
+3737,142,b,"In contrast, Snail expression was not induced by these conditions (<xref ref-type=""fig"" rid=""pbio-0030011-g005"">Figure 5</xref>A)."
+3738,143,b,"Thus, despite essential roles for Wnts and noggin in hair follicle specification [<xref ref-type=""bibr"" rid=""pbio-0030011-b04"">4</xref>,<xref ref-type=""bibr"" rid=""pbio-0030011-b29"">29</xref>,<xref ref-type=""bibr"" rid=""pbio-0030011-b30"">30</xref>], our studies did not support an essential role for these signals in governing <i>Snail</i> expression in keratinocytes."
+3739,144,b,"TGF-β1 has been shown to induce Snail family members in hepatocytes and heart [<xref ref-type=""bibr"" rid=""pbio-0030011-b15"">15</xref>, <xref ref-type=""bibr"" rid=""pbio-0030011-b31"">31</xref>]."
+3740,145,b,"In keratinocytes, however, TGF-β1 inhibits keratinocyte growth and seems to be involved in triggering the destructive phase of the cycling hair follicle [<xref ref-type=""bibr"" rid=""pbio-0030011-b32"">32</xref>]."
+3741,146,b,"Of the loss-of-function mutations generated in each of the <i>TGF-β</i> genes, only the <i>TGF-β2</i> null state blocked follicle development at the hair bud stage [<xref ref-type=""bibr"" rid=""pbio-0030011-b32"">32</xref>]."
+3742,147,b,"Thus, we turned towards addressing whether TGF-β2 might be involved in regulating <i>Snail</i> expression in keratinocytes isolated from the basal layer of the epidermis."
+3743,148,b,"Though there is no cell culture system available to specifically study placodal cells, these keratinocytes are their progenitors and are the closest approximation available to study the behavior of epithelial cells of the placode."
+3744,149,b,"Interestingly, treatment of cultured keratinocytes with as little as 5 ng/ml of TGF-β2 caused a rapid and transient induction of Snail (<xref ref-type=""fig"" rid=""pbio-0030011-g005"">Figure 5</xref>B)."
+3745,150,b,"Following this treatment, Snail protein was detected within 30 min, peaked at 2 h, and then declined thereafter."
+3746,151,b,"The induction of Snail appeared to be specific for the active form of the growth factor, as pretreatment of TGF-β2 for 10 min at 100 °C obliterated the response [<xref ref-type=""fig"" rid=""pbio-0030011-g005"">Figure 5</xref>B, lanes marked (–)]."
+3747,152,b,"By contrast, although TGF-β receptor activation remained elevated during the duration of the experiment (as measured by the sustained phosphorylation of the downstream effector SMAD2) <i>Snail</i> expression could not be maintained (<xref ref-type=""fig"" rid=""pbio-0030011-g005"">Figure 5</xref>B)."
+3748,153,b,"Thus, although <i>Snail</i> expression correlated with phosphorylated SMAD2 (pSMAD2) induction, its decline seemed to rely on secondary downstream events."
+3749,154,b,"The rapid kinetics of Snail expression were reflected at the mRNA level, suggesting that <i>Snail</i> promoter activity in keratinocytes might be sensitive to TGF-β2 signaling (<xref ref-type=""fig"" rid=""pbio-0030011-g005"">Figure 5</xref>C)."
+3750,155,b,"To test this possibility, we engineered a transgene driving the β-galactosidase reporter under the control of approximately 2.2 kb of promoter sequence located 5′ from the transcription initiation site of the mouse <i>Snail</i> gene."
+3751,156,b,"At 2 d after transient transfection, keratinocytes were treated with TGF-β2 (t = 0) and then assayed for transgene activity over the same time course in which we had observed Snail protein induction."
+3752,157,b,"The results of this experiment are presented in <xref ref-type=""fig"" rid=""pbio-0030011-g005"">Figure 5</xref>D."
+3753,158,b,"Within 0.5 h of TGF-β2 treatment, <i>Snail</i> promoter activity had increased 3-fold, and by 2 h, it peaked to approximately 10-fold over control levels (<xref ref-type=""fig"" rid=""pbio-0030011-g005"">Figure 5</xref>D)."
+3754,159,b,"Thereafter, <i>Snail</i> promoter activity rapidly returned to the basal levels seen in unstimulated keratinocytes."
+3755,160,b,The kinetics of <i>Snail</i> promoter activity closely paralleled those observed for Snail protein induction.
+3756,161,b,"Moreover, the stimulatory effects appeared to be specific to TGF-β2, since they were abrogated either by heat inactivation of the TGF-β2 protein or by mutation of a putative SMAD binding element located about 1.8 kb 5′ from the <i>Snail</i> transcription start site (<xref ref-type=""fig"" rid=""pbio-0030011-g005"">Figure 5</xref>D)."
+3757,162,b,"Taken together, these results suggested that in keratinocytes, TGF-β2 signaling results in a pSMAD2-dependent transient activation of the <i>Snail</i> gene, and that maintenance of Snail protein relies, in part, upon sustained promoter activity."
+3758,163,b,The brevity of <i>Snail</i> gene and protein induction in TGF-β2 treated cultured keratinocytes resembled the temporal appearance of <i>Snail</i> mRNA and protein at the initiation of hair follicle morphogenesis in embryonic mouse skin.
+3759,164,b,"To test whether TGF-β2 might be required for <i>Snail</i> induction in hair bud formation in vivo, we first analyzed whether TGF-β2 was expressed in or around the hair bud."
+3760,165,b,"Consistent with previous observations [<xref ref-type=""bibr"" rid=""pbio-0030011-b33"">33</xref>], an anti-TGF-β2 antibody labeled developing hair buds (<xref ref-type=""fig"" rid=""pbio-0030011-g006"">Figure 6</xref>A)."
+3761,166,b,"This labeling appeared to be specific as judged by the lack of staining in follicle buds from mice homozygous for a <i>TGF-β2</i> null mutation (<xref ref-type=""fig"" rid=""pbio-0030011-g006"">Figure 6</xref>A; [<xref ref-type=""bibr"" rid=""pbio-0030011-b34"">34</xref>])."
+3762,167,b,"Moreover, the downstream effector of TGF-β2 signaling, pSMAD2, was also expressed in WT, but not <i>TGF-β2</i>-null, hair buds (<xref ref-type=""fig"" rid=""pbio-0030011-g006"">Figure 6</xref>B)."
+3763,168,b,"Together, these data underscore the importance of the TGF-β2 isoform despite expression of both TGF-β1 and TGF-β2 in developing hair buds at this stage."
+3764,169,b,"To further explore the possible relation between Snail and TGF-β2, we examined the status of Snail expression in <i>TGF-β2</i>-null hair buds."
+3765,170,b,"As judged by immunohistochemistry, Snail protein was absent from E17.5 skin of <i>TGF-β2-</i>null embryos but not from that of control littermates (<xref ref-type=""fig"" rid=""pbio-0030011-g006"">Figure 6</xref>C)."
+3766,171,b,"This effect appeared to be exerted at the transcriptional level, since <i>Snail</i> mRNAs were also not found in <i>TGF-β2</i> null hair buds under conditions in which the signal was readily detected in the hair buds of littermate skin (<xref ref-type=""fig"" rid=""pbio-0030011-g006"">Figure 6</xref>D)."
+3767,172,b,"Conversely, in 2-wk-old <i>K14-Smad2</i> Tg mice, which display elevated TGF-β signaling in skin [<xref ref-type=""bibr"" rid=""pbio-0030011-b35"">35</xref>], Snail protein was readily detected by Western blot analyses, where it was not found in postnatal skin (<xref ref-type=""fig"" rid=""pbio-0030011-g006"">Figure 6</xref>E)."
+3768,173,b,"Taken together, these results provide compelling evidence that TGF-β2 is functionally important for inducing <i>Snail</i> gene expression in a pSMAD-dependent manner in developing hair buds."
+3769,174,b,"Whether pMARK activity also contributes to Snail induction was not addressed in the present study [<xref ref-type=""bibr"" rid=""pbio-0030011-b15"">15</xref>]."
+3770,175,b,"Although some hair buds still formed in <i>TGF-β2</i> null skin, their number was reduced by approximately 50% [<xref ref-type=""bibr"" rid=""pbio-0030011-b32"">32</xref>]."
+3771,176,b,"Thus, although the pathway mediated by TGF-β2 signaling impacts the earliest step of epithelial invagination, it does not appear to be essential for bud morphogenesis."
+3772,177,b,"Consistent with this notion, basement membrane remodeling still took place in the <i>TGF-β2</i>-null buds, as judged by immunofluorescence with antibodies against β4 integrin, an integral component of keratinocyte-mediated adhesion to its underlying basement membrane (<xref ref-type=""fig"" rid=""pbio-0030011-g006"">Figure 6</xref>F)."
+3773,178,b,"In contrast, TGF-β2 signaling appeared to be an important factor for the early proliferation that occurs in the developing hair buds, as judged by anti-Ki67 and anti-pMAPK immunofluorescence (<xref ref-type=""fig"" rid=""pbio-0030011-g006"">Figure 6</xref>F and <xref ref-type=""fig"" rid=""pbio-0030011-g006"">6</xref>G)."
+3774,179,b,"If TGF-β2 stimulates <i>Snail</i> expression in developing buds, loss of this morphogen would be expected to affect the expression of genes that are typically repressed by Snail."
+3775,180,b,"Since a major target for Snail-mediated repression is the <i>E-cadherin</i> gene [<xref ref-type=""bibr"" rid=""pbio-0030011-b12"">12</xref>,<xref ref-type=""bibr"" rid=""pbio-0030011-b13"">13</xref>], we investigated the status of E-cadherin in <i>TGF-β2</i>-null buds."
+3776,181,b,"As shown in <xref ref-type=""fig"" rid=""pbio-0030011-g006"">Figure 6</xref>H, hair buds in TGF-β2 null skin displayed elevated immunofluorescence staining relative to their WT counterparts."
+3777,182,b,Previously we demonstrated that the concerted action of the extracellular signals Wnt and noggin are required for the generation of a LEF-1/β-catenin transcription complex to repress <i>E-cadherin</i> transcription at the onset of hair fate specification.
+3778,183,b,"As shown in <xref ref-type=""fig"" rid=""pbio-0030011-g006"">Figure 6</xref>I and <xref ref-type=""fig"" rid=""pbio-0030011-g006"">6</xref>J, both WT and TGF-β2 null buds exhibited nuclear LEF-1 and β-catenin localization, signs that the Wnt-noggin signaling pathway was intact."
+3779,184,b,"These data suggest that during hair follicle morphogenesis, TGF-β2 functions subsequently to Wnt/noggin-mediated determination of hair fate."
+3780,185,b,"Moreover, through activation of <i>Snail</i> gene expression, TGF-β2 appears to work in tandem with these other morphogens to down-regulate E-cadherin levels, which contributes to the activation of proliferative circuitries."
+3781,186,s,Discussion
+3782,187,b,"During budding morphogenesis, intersecting signaling networks from the epithelium and mesenchyme govern transcriptional, adhesive, polarity, and motility programs in these select groups of cells."
+3783,188,b,The dynamic nuclear and cytosolic changes that take place during this time form the cornerstone for organ morphogenesis.
+3784,189,b,"Two major challenges in understanding the mechanisms underlying a particular budding process are to order the temporal sequence of external cues involved and then to dissect how the cells of the developing bud translate these signals into the downstream events of cellular remodeling, proliferation, and differentiation."
+3785,190,b,Our studies here provide some insights into how these events are orchestrated during hair bud formation in developing skin.
+3786,191,s,Signaling during Early Hair Follicle Morphogenesis
+3787,192,b,"Recent studies on hair bud morphogenesis suggest that Wnt signals likely from the epithelium and BMP inhibitory signals from the underlying mesenchyme converge to produce an active transcription factor complex involving β-catenin and LEF-1, which in turn plays a key role in specifying the hair follicle fate [<xref ref-type=""bibr"" rid=""pbio-0030011-b04"">4</xref>,<xref ref-type=""bibr"" rid=""pbio-0030011-b29"">29</xref>,<xref ref-type=""bibr"" rid=""pbio-0030011-b30"">30</xref>,<xref ref-type=""bibr"" rid=""pbio-0030011-b36"">36</xref>,<xref ref-type=""bibr"" rid=""pbio-0030011-b37"">37</xref>]."
+3788,193,b,"Sonic hedgehog (Shh) and TGF-β2 signaling also play essential roles in follicle morphogenesis, but in contrast to <i>β-catenin</i> null skin, in which follicle invaginations are absent [<xref ref-type=""bibr"" rid=""pbio-0030011-b30"">30</xref>], some hair buds still form in the absence of LEF-1, Shh, or TGF-β2 [<xref ref-type=""bibr"" rid=""pbio-0030011-b32"">32</xref>,<xref ref-type=""bibr"" rid=""pbio-0030011-b38"">38</xref>]."
+3789,194,b,"These likely reflect the first wave of follicle (i.e., guard hair) morphogenesis, which accounts for a small number (fewer than 5%) of hairs and is under distinct regulatory control."
+3790,195,b,"Guard hairs form in the absence of LEF-1 and TGF-β2, and we have found that they also fail to express Snail at the budding stage of development (unpublished data)."
+3791,196,b,How E-cadherin is regulated in guard hairs remains to be determined.
+3792,197,b,"Several candidates include other Snail family members such as Slug or twist, or alternatively, transcription factors involving β-catenin and a different member of the LEF-1/TCF/<i>Sry</i>-type HMG box (commonly known as SOX) family [<xref ref-type=""bibr"" rid=""pbio-0030011-b39"">39</xref>,<xref ref-type=""bibr"" rid=""pbio-0030011-b40"">40</xref>]."
+3793,198,b,Further investigation will be required to determine whether the signaling pathway we have elucidated here is a theme with multiple variations.
+3794,199,b,"TGF-βs are known to promote withdrawal of keratinocytes from the cell cycle [<xref ref-type=""bibr"" rid=""pbio-0030011-b41"">41</xref>]."
+3795,200,b,"Hence, when TGF-β2 protein was detected at the transition between the growing and destructive phases of the adult hair cycle, research initially and naturally focused on a role for this family member in cessation of growth and/or triggering apoptosis ([<xref ref-type=""bibr"" rid=""pbio-0030011-b42"">42</xref>] and references therein)."
+3796,201,b,"However, in contrast to <i>TGF-β1</i>-null skin, which exhibits an extended growing phase of postnatal hair follicles, <i>TGF-β2</i>-null skin displays an embryonic block in follicle bud progression [<xref ref-type=""bibr"" rid=""pbio-0030011-b32"">32</xref>]."
+3797,202,b,"Although this phenotype is consistent with TGF-β2's embryonic expression patterns [<xref ref-type=""bibr"" rid=""pbio-0030011-b33"">33</xref>], about 50% of <i>TGF-β2</i> null buds appear unable to progress to the down-growth phase, a feature that cannot be explained readily on the basis of previously established effects of TGF-βs."
+3798,203,b,Our finding that TGF-β2 is upstream from Ki67 expression and MAPK activation lends further support to the notion that hair follicle keratinocytes at this early stage of development react to TGF-β2 signaling in a fashion opposite to that typically expected for TGF-β factors.
+3799,204,b,"This said, based upon pSMAD2 immunohistochemistry, the immediate steps of downstream signaling appeared to be intact."
+3800,205,b,"Thus, we surmise that the proliferative outcome is likely to be rooted in differences in the repertoire of activated SMAD target genes."
+3801,206,b,"In this regard, the positive effects of TGF-β2 on proliferation within the hair bud may be more analogous to what has been seen in progression of squamous cell carcinoma to metastatic carcinoma [<xref ref-type=""bibr"" rid=""pbio-0030011-b43"">43</xref>] rather than that typically observed for keratinocytes [<xref ref-type=""bibr"" rid=""pbio-0030011-b44"">44</xref>,<xref ref-type=""bibr"" rid=""pbio-0030011-b45"">45</xref>,<xref ref-type=""bibr"" rid=""pbio-0030011-b46"">46</xref>]."
+3802,207,b,"The prior identification of the <i>Snail</i> gene as a potential target of TGF-β signaling [<xref ref-type=""bibr"" rid=""pbio-0030011-b15"">15</xref>] was intriguing, given the temporal wave of <i>Snail</i> gene expression that occurs in the developing hair bud."
+3803,208,b,The additional correlation between epithelial hyperproliferation and <i>Snail</i> transgene expression further fostered our interest in a possible link between TGF-β2 and Snail.
+3804,209,b,"Our functional studies demonstrate that without TGF-β2, <i>Snail</i> expression is abolished in the mutant hair buds, and conversely, in <i>K14-Smad2</i> skin, <i>Snail</i> is ectopically activated."
+3805,210,b,"Moreover, our in vitro studies indicate that even sustained TGF-β2 exposure may cause only a transient induction of Snail, offering a possible explanation as to why Snail is so briefly expressed during hair follicle morphogenesis."
+3806,211,b,"An additional point worth mentioning is that prolonged expression of Tg <i>Snail</i> in postnatal skin resulted in morphological and biochemical signs of epithelial to mesenchymal transitions (unpublished data), underscoring why transient Snail expression may be so important during normal hair follicle morphogenesis [<xref ref-type=""bibr"" rid=""pbio-0030011-b18"">18</xref>]."
+3807,212,b,"At first glance, the sparsity in hair coat of K14-<i>Snail</i> Tg mice seemed indicative of a defect in follicle formation (see <xref ref-type=""fig"" rid=""pbio-0030011-g002"">Figure 2</xref>A)."
+3808,213,b,"Closer inspection, however, revealed that not all hairs penetrated the hyperthickened Tg epidermis."
+3809,214,b,Several factors may contribute to the seemingly normal follicle development in these mice.
+3810,215,b,"One obvious factor is the K14 promoter, which is elevated in the basal layer of the epidermis and the outer root sheath (ORS) of the hair follicle, but is markedly down-regulated in developing embryonic hair buds as well as in the postnatal hair progenitor cells."
+3811,216,b,The K14 promoter is also less active in the ORS than epidermis and hence this might also account for the lack of apparent response of the ORS to ectopic Snail.
+3812,217,b,"Additional contributing factors could be the multiplicity of Snail family members and their differential expression, the saturation, and/or diversity of regulatory mechanisms that govern AJ formation, migration, and proliferation in the follicle ORS."
+3813,218,b,Distinguishing between these possibilities must await the generation of mice harboring skin-specific loss-of-function <i>Snail</i> mutations.
+3814,219,s,"Links between Signaling, Transcriptional Cascades, Epithelial Remodeling, and Proliferation in the Hair Bud"
+3815,220,b,"Previously, we discovered that early during hair follicle morphogenesis, <i>E-cadherin</i> gene expression is down-regulated concomitantly with the invagination of developing bud cells into the skin [<xref ref-type=""bibr"" rid=""pbio-0030011-b04"">4</xref>]."
+3816,221,b,"Because the timing of this event correlated with the activation of a LEF-1/β-catenin transcription factor complex [<xref ref-type=""bibr"" rid=""pbio-0030011-b20"">20</xref>], we were intrigued by the presence of a putative LEF-1/TCF binding site in the <i>E-cadherin</i> promoter."
+3817,222,b,"This prompted an investigation that subsequently led to our discovery that LEF-1/β-catenin can contribute to repression of <i>E-cadherin</i> gene expression in skin keratinocytes [<xref ref-type=""bibr"" rid=""pbio-0030011-b04"">4</xref>]."
+3818,223,b,"In the course of these studies, we also noted that Snail can also contribute to this process in keratinocytes in vitro, and our present studies revealed that Snail is expressed at the right place and time to be physiologically relevant in the process."
+3819,224,b,"In <i>noggin</i>-null embryonic skin, LEF-1 expression and subsequent activation of the LEF-1/β-catenin reporter gene is abrogated in the developing placodes."
+3820,225,b,"The corresponding failure of <i>E-cadherin</i> down-regulation underscores the importance of Wnt/noggin signaling in regulating this event in follicle morphogenesis [<xref ref-type=""bibr"" rid=""pbio-0030011-b04"">4</xref>]."
+3821,226,b,Conditional gene targeting studies will be necessary to establish whether Snail family members also contribute to the down-regulation in <i>E-cadherin</i> gene expression that occurs during follicle formation.
+3822,227,b,"However, it is intriguing that <i>K14-Snail</i> Tg epidermis displayed a marked down-regulation in E-cadherin expression, thereby demonstrating its potential to do so in skin."
+3823,228,b,"Our prior findings showed that by elevating E-cadherin levels or by conditionally ablating <i>α-catenin,</i> hair follicle morphogenesis can be impaired [<xref ref-type=""bibr"" rid=""pbio-0030011-b04"">4</xref>,<xref ref-type=""bibr"" rid=""pbio-0030011-b07"">7</xref>]."
+3824,229,b,"The marked epidermal hyperproliferation seen in the <i>K14-Snail</i> Tg skin, coupled with the converse suppression of proliferation and Snail in <i>TGF-β2</i>-null hair buds led us to wonder whether the down-regulation of E-cadherin during follicle morphogenesis might have a direct impact on elevating the proliferative state of these cells."
+3825,230,b,"Our Tg studies suggested that, at least in part through its regulation of <i>E-cadherin</i>, Snail is able to influence the subcellular localization of a variety of AJ-associated proteins."
+3826,231,b,"One of these appears to be Ajuba, which was previously shown to have the dual capacity to bind Grb-2 as well as α-catenin [<xref ref-type=""bibr"" rid=""pbio-0030011-b09"">9</xref>,<xref ref-type=""bibr"" rid=""pbio-0030011-b10"">10</xref>]."
+3827,232,b,"Our studies revealed that in skin keratinocytes that either harbor a conditional null mutation in <i>α-catenin</i> or that overexpress Snail, Ajuba develops an interaction with Grb-2 that is otherwise not observed in WT keratinocytes."
+3828,233,b,The corresponding abilities of either <i>Snail</i>-transfected or <i>Ajuba</i>-transfected keratinocytes to exhibit elevated activation of the Ras-MAPK pathway suggest that the Grb-2 association of Ajuba under conditions of reduced levels of AJ proteins may be directly relevant to the parallel in hyperproliferation.
+3829,234,b,"In stable epithelial (i.e., Madin-Darby canine kidney, or MDCK) cell lines, Snail has been shown to block cell cycle progression and promote motility and shape changes for invasion [<xref ref-type=""bibr"" rid=""pbio-0030011-b47"">47</xref>]."
+3830,235,b,"While our in vivo studies are consistent with a role for Snail in motility and epithelial remodeling, they differ with respect to Snail's apparent proliferative effects."
+3831,236,b,"A priori, this could be simply due to variations in the response of different cell types to Snail expression."
+3832,237,b,"Alternatively, these differences may be relevant to the benefit of using mouse models to reveal functions not always recapitulated in stable cell line models."
+3833,238,b,Future studies should highlight the underlying reasons for these opposing results.
+3834,239,b,"Irrespective of these differences, our in vivo studies do not stand alone, as there are many situations in which a down-regulation in AJ proteins correlate with enhanced proliferation."
+3835,240,b,"In fact, a myriad of diverse mechanisms have been implicated in activating epithelial proliferation upon down-regulation of AJ proteins [<xref ref-type=""bibr"" rid=""pbio-0030011-b07"">7</xref>,<xref ref-type=""bibr"" rid=""pbio-0030011-b23"">23</xref>,<xref ref-type=""bibr"" rid=""pbio-0030011-b24"">24</xref>,<xref ref-type=""bibr"" rid=""pbio-0030011-b48"">48</xref>]."
+3836,241,b,Sifting through these converging pathways is likely to be a difficult and painstaking process.
+3837,242,b,"This said, by identifying the status of different players involved in specific cell types and at specific stages in development, our mechanistic understanding of how intercellular remodeling is linked to proliferation in epithelial morphogenesis should begin to surface in the future."
+3838,243,b,Elucidating the molecular mechanisms through which these networks converge is also a prerequisite for understanding how these processes go awry during tumorigenesis.
+3839,244,s,Materials and Methods
+3840,245,s,Reagents
+3841,246,b,"Primary antibodies used were against: E-cadherin (M. Takeichi, Kyoto University, Japan); α-catenin, β-catenin, pMAPK, tubulin (Sigma, St. Louis, Missouri, United States), Ajuba (G. Longmore, Washington University, St. Louis, Missouri, United States); β4 integrin/CD104 (BD Pharmingen, San Diego, California, United States), laminin 5 (R. Burgeson, Harvard University, Cambridge, Massachusetts, United States), K5, K1, loricrin (Fuchs Lab), involucrin, fillagrin (Covance, Berkeley, California, United States), MAPK, pSMAD2 (Cell Signaling, Beverly, Massachusetts, United States); Grb-2 (Santa Cruz Biotech, Santa Cruz, California, United States); P-cadherin (Zymed Laboratories, South San Francisco, California, United States); HA (Roche Biochemicals), vimentin (Chemicon, Temecula, California, United States), Ki67 (Novo Castra, Newcastle Upon Tyne, United Kingdom), keratin 6 (P. Coulombe, John Hopkins University, Baltimore, Maryland, United States), cyclin D (Oncogene, San Diego, California, United States), and TGF-β2 (L. Gold, New York University, New York, New York, United States)."
+3842,247,b,"FITC-, Texas Red-, or HRP-conjugated secondary antibodies were from Jackson ImmunoResearch (West Grove, Pennsylvania, United States)."
+3843,248,b,"Biotinylated secondary antibodies were from Vector Labs (Burlingame, California, United States)."
+3844,249,b,Dilutions were according to the manufacturer's recommendation.
+3845,250,b,"The Snail antibody was generated in Guinea pigs by inoculating them with the N-terminal sequence of murine <i>Snail</i> fused to GST (Covance, Princeton, New Jersey, United States)."
+3846,251,b,"Recombinant human TGF-β2 was purchased from R&D (Minneapolis, Minnesota, United States)."
+3847,252,b,Heat inactivated TGF-β2 was generated by heating the recombinant protein at 100 °C for 10 min.
+3848,253,s,Mice
+3849,254,b,"The <i>K14-Snail</i> Tg mouse was generated by digesting the pcDNA3-mm <i>Snail</i>-HA plasmid (G. de Herreros, Universitat Pompeu, Fabra, Barcelona, Spain) with BamHI and NotI and subcloned into the K14 vector [<xref ref-type=""bibr"" rid=""pbio-0030011-b49"">49</xref>]."
+3850,255,b,The linearized construct was injected into the nucleus of embryos from CD1 mice.
+3851,256,b,"The <i>K14-Smad 2</i> Tg mouse was reported in Ito et al., 2001."
+3852,257,b,"The <i>TGF-β2</i> knockout (KO) mouse was described in [<xref ref-type=""bibr"" rid=""pbio-0030011-b34"">34</xref>]."
+3853,258,b,"The <i>shh</i> KO mouse [<xref ref-type=""bibr"" rid=""pbio-0030011-b38"">38</xref>] and TOPGal mouse [<xref ref-type=""bibr"" rid=""pbio-0030011-b20"">20</xref>] have previously been reported."
+3854,259,s,Western blot and immunoprecipitation
+3855,260,b,"Protein extracts from primary keratinocytes were generated either by lysing cells in lysis buffer (1% NP-40, 1% sodium deoxycholate, 20 mM Tris-Cl [pH 7.4], 140 mM NaCl containing 1 mM sodium vanadate, 2 mM phenylmethylsulfonyl fluoride, and protease inhibitors) or directly in Laemmli bβuffer and boiled."
+3856,261,b,For skin tissue: Frozen tissue was pulverized in a liquid nitrogen-cooled Gevebesmascher and the powder scraped into a chilled microcentrifuge tube.
+3857,262,b,"RIPA buffer (1% Triton X-100 in PBS with 10 mM EDTA, 150 mN NaCl, 1% sodium deoxycholate, and 0.1% SDS) and protease inhibitors or Laemmli buffer was added."
+3858,263,b,"The cell suspension was sonicated three times for 15 s and centrifuged at 14,000 rpm at 4 °C."
+3859,264,b,The supernatant was separated from the pellet and used in the experiments.
+3860,265,b,"Extracts subjected to immunoprecipitation were precleared with Protein G Sepharose (Amersham, Piscataway, New York, United States) and incubated with antibody with rocking overnight at 4 °C."
+3861,266,b,Protein G Sepharose was added and samples were incubated for 1 h at 4 °C with rocking.
+3862,267,b,"Samples were washed three times for 5 min each in lysis buffer, and the Protein G Sepharose-antibody-antigen pellet was resuspended in Laemmli buffer and boiled for 10 min."
+3863,268,b,"Samples were run on SDS-PAGE and transferred to nitrocellulose membrane (Schleicher and Schuell Bioscience, Keene, New Hampshire, United States)."
+3864,269,s,Western blot signals were developed using the enhanced chemiluminescence kit from Amersham
+3865,270,s,Cell culture
+3866,271,b,"Primary keratinocytes were culture in low-calcium medium as previously described [<xref ref-type=""bibr"" rid=""pbio-0030011-b04"">4</xref>]."
+3867,272,b,"Transient transfections were carried out with FuGENE6 reagent (Roche, Indianapolis, Indiana, United States) according to the manufacturer's protocol."
+3868,273,b,"Measurement of β-galactosidase or luciferase levels in promoter activity studies were carried out with the Galacto-Lite assay kit (TROPIX, Bedford, Massachusetts, United States) and the Dual luciferase (Promega, Madison, Wisconsin, United States), respectively."
+3869,274,b,Runella luciferase was cotransfected into cells to correct for transfection efficiency.
+3870,275,b,Experiments were done in triplicate and repeated at least three times.
+3871,276,b,"Measurements were done on a luminometer (MGM Instruments, Hamden, Connecticut, United States)."
+3872,277,b,"For experiments measuring phosphorylation of MAPK, keratinocytes were serum starved for 3 h prior to harvesting of cells by incubation in medium lacking serum."
+3873,278,b,"Treatment of cells with Wnt- and noggin-conditioned medium was previously described [<xref ref-type=""bibr"" rid=""pbio-0030011-b04"">4</xref>]."
+3874,279,s,Constructs
+3875,280,b,"The 2.2-kb murine <i>Snail</i> promoter was generated by PCR using a forward primer with an XbaI linker sequence, 5′-TCTAGAATTGTTTGCTGCTGTATGGTCTTC-3′, along with a reverse primer with a BglII linker sequence, 5′-AGATCTGTTGGCCAGAGCGACCTAG-GTAG-3′, and mouse genomic DNA as a template."
+3876,281,b,"The PCR product was purified with the Gel Extraction Kit (Qiagen, Valencia, California, United States) and ligated into pCRII-TOPO TA vector (Invitrogen, Carlsbad, California, United States)."
+3877,282,b,"The promoter was verified by sequencing and digested with XbaI and BglII and subcloned into the pβ-gal BASIC vector (BD Biosciences Clontech, Palo Alto, California, United States)."
+3878,283,b,"The point mutations in the SMAD binding element was generated with the Quik-Change Kit (Stratagene, La Jolla, California, United States) using the forward primer 5′-GGGCGGGCTTAGGTGTTTTCATTTACTCTTGAGGAAAAGCTTGGC-3′ and the reverse primer 5′-GCTTTT-CCTCAAGAGTAAATGAAAACACCTAAGCCCGCCCTGCCC-3′."
+3879,284,b,"The probes for the <i>Snail</i> in situ hybridization were generated against the 3′ UTR by PCR using the forward primer 5′-ACCTTCTCCCGCATGTCCTTGCTCC-3′ and the reverse primer 5′-CTGCTGAGGCATGGTTACAGCTGG-3′, and genomic DNA as a template."
+3880,285,b,The PCR product was gel purified and ligated into pCRII-TOPO TA vector.
+3881,286,b,"The pre-LIM domain of Ajuba was generated essentially as described [<xref ref-type=""bibr"" rid=""pbio-0030011-b09"">9</xref>], but was fused to GFP by subcloning from the pEGFP-N1 20 vector (BD Biosciences Clontech)"
+3882,287,s,In situ hybridization
+3883,288,b,The pCRII-TOPO TA vector containing a region of the 3′ UTR of <i>Snail</i> was used as a template to generate digoxigenin-labeled sense and antisense riboprobes (Roche).
+3884,289,b,The respective probes were obtained by XhoI and BamH1 digestions.
+3885,290,b,In situ hybridizations were performed on 10-μm thick sections of E17.5 mouse embryos.
+3886,291,b,"The sections were fixed with 4% PFA for 10 min at room temperature, prehybridized at room temperature for 4.5 h, hybridized with the probe (2 μg/ml) at 55 °C for 12–14 h, blocked with 10% NGS, and treated with anti-dig Fab-AP antibody (Roche #1093274) at a 1:2,500 dilution for 3 h."
+3887,292,b,The sections were incubated with NBT and BCIP until adequate signal was detected.
+3888,293,s,Immunofluorescence and immunohistochemistry
+3889,294,b,Tissue samples for immunofluorescence were frozen in OCT and sectioned 10 μm thick on a cryostat.
+3890,295,b,"Sections were fixed in 4% paraformaldehyde for 10 min at room temperature, blocked, and stained with antibodies."
+3891,296,b,"Tissue samples for immunohistochemistry were fixed in 4% paraformaldehyde, dehydrated, and embedded in paraffin."
+3892,297,b,Samples were sectioned on a microtome (10 μm thick) and rehydrated prior to staining with antibody.
+3893,298,b,"Samples stained with Snail, pMAPK, pSmad2, and cyclin D were antigen unmasked with 10 mM sodium citrate (pH 6) in an Antigen Retriever 2100 (Pickcell Laboratories, Leiden, Netherlands)."
+3894,299,b,The DAB substrate kit (Vector Labs) was used according to manufacturer's instructions to develop the signal.
+3895,300,s,RT-PCR
+3896,301,b,RNA was extracted from keratinocytes or skin tissue with Trizol (Invitrogen) according to the manufacturer's protocol.
+3897,302,b,cDNA was generated using oligo-dT primers and the Superscript II kit (Invitrogen).
+3898,303,b,The primers used for PCR were <i>Snail</i> forward: 5′-CAGCTGGCCAGGCTCTCGGT-3′; <i>Snail</i> reverse: 5′-GCGAGGGCCTCCGGAGCA-3′; GAPDH forward 5′-CGTAGACAAAATGGTGAAGGTCGG-3′; and GAPDH reverse: 5′-AAGCAGTTGGTGGTGCAGGATG-3′.
+3899,304,ft,Figure 1
+3900,305,f,"Embryos were either frozen in OCT embedding compound (A, F, and H) or embedded in paraffin (C, D, E, and G), and then sectioned (8 μm)."
+3901,306,f,(A) In situ hybridizations with <i>Snail</i> sense or antisense cRNA probes.
+3902,307,f,Black dotted lines demarcate the basement membrane that separates the epidermis (epi) from dermis (der).
+3903,308,f,"Arrows point to <i>Snail</i> RNA expression, restricted to the hair bud stage of follicle morphogenesis."
+3904,309,f,It was not seen in later hair germ or peg stages.
+3905,310,f,(B) Expression of Snail protein coincides with hair development.
+3906,311,f,"Protein extracts were prepared from keratinocytes transfected with empty expression vector (K14), containing the K14 promoter or with the vector driving HA-tagged <i>Snail</i> (K14-<i>Snail</i>); or from whole skin from E13.5 to P5 animals, including newborn (nb)."
+3907,312,f,"Equal amounts of proteins were then resolved by SDS-PAGE through 12% gels and subjected to Western blotting using either an affinity-purified Snail polyclonal antiserum, which we generated, or anti-tubulin (loading control)."
+3908,313,f,(C–E) Immunohistochemistry shows expression of Snail protein in the nuclei of cells within the hair and skin.
+3909,314,f,(C) E13.5 skin with a single layered epidermis (epi) shows no Snail expression.
+3910,315,f,(D) The first morphological sign that cells have adopted a hair follicle fate is a cluster of cells called a placode in E16.5 skin.
+3911,316,f,Snail is not expressed at this stage of development.
+3912,317,f,(E) Snail is expressed in the hair bud of E17.5 skin but not in later stages of development such as the germ or peg.
+3913,318,f,"(F) Immunofluorescence with anti-Ki67 (green) identifies the proliferating cells of the skin, restricted to the basal layer of the epidermis and developing hair follicles."
+3914,319,f,"Anti-β4 int labeling reveals the presence of the hemidesmosomal integrin β4, restricted to the base of cells adhering to the underlying basement membrane."
+3915,320,f,The white dotted line marks the outermost surface of the skin.
+3916,321,f,(G) Immunohistochemistry with pMAPK marks a subset of proliferating cells within the epidermis and hair bud.
+3917,322,f,Anti-pMAPK labeling was consistently robust within the hair bud.
+3918,323,f,"(H) Immunofluorescence with anti-laminin 5 (lam5), which demarcates the basement membrane, and anti-E-cadherin (E-cad), a component of AJs."
+3919,324,f,"At the leading edge of the growing bud, cell-cell borders show markedly diminished anti-E-cadherin labeling (arrowheads)."
+3920,325,ft,Figure 2
+3921,326,f,"Three different surviving Tg founder mice harbored a <i>K14-Snail</i> transgene that was integrated into a locus that resulted in inheritable, mosaic expression of the transgene in skin epidermis."
+3922,327,f,"All displayed similar abnormalities, as did their offspring."
+3923,328,f,(A) P16 WT and <i>K14-Snail</i> Tg mice.
+3924,329,f,"Insets denote magnified tail segments, which displayed a mosaic, flaky appearance in Tg mice."
+3925,330,f,"Size differences appeared with age, and are likely due to K14-promoter activity in the tongue and oral epithelium, resulting in progressive defects and reduced food intake."
+3926,331,f,"Hence, skin sections from young (P3) mice were analyzed (B–I)."
+3927,332,f,(B) Hematoxylin- and eosin-stained Tg skin section.
+3928,333,f,"Double arrows demarcate the border of mosaic histology, with seemingly normal epidermis (epi) and a mature hair follicle (hf) at left and hyperthickened epidermis at right."
+3929,334,f,(C) Immunofluorescence of Tg skin section labeled with antibodies as color-coded on frame.
+3930,335,f,"Double arrows demarcate the border of mosaic anti-Snail (green), revealing Snail expression coincident with regions of hyperthickened epidermis (at left) and absent in regions of normal epidermis (at right)."
+3931,336,f,"(D–I) Sections of P3 WT or Tg skin (affected region) subjected to either immunofluorescence (D, E, H, and I) or immunohistochemistry (F and G) with antibodies as indicated on the panel."
+3932,337,f,"Anti-keratin 5 indicates K5, normally restricted to the basal layer of the epidermis; anti-keratin 6 detects keratin 6, expressed in postnatal epidermis under conditions such as wounding, in which hyperproliferation occurs."
+3933,338,f,"All other antibodies are as in the legend to <xref ref-type=""fig"" rid=""pbio-0030011-g002"">Figure 2</xref>."
+3934,339,f,Comparison of D and E provide representative examples that illustrate that pMAPK is found in only a subset of all proliferating (Ki67-positive) cells.
+3935,340,f,Note also the presence of Ki67- (E) and pMAPK-positive (G) cells in some suprabasal areas; Ki67-positive cells colabeled with anti-Snail (E).
+3936,341,ft,Figure 3
+3937,342,f,(A–H) Immunofluorescence of skin sections from P3 WT and Tg mice.
+3938,343,f,"Shown are affected areas of Tg skin; in areas where Snail protein was not expressed, stainings were normal."
+3939,344,f,Sections were labeled with antibodies as indicated and color-coded on each frame.
+3940,345,f,"Antibodies are against markers of normal epidermal differentiation, and include K5 (a basally expressed keratin), K1 (a suprabasal keratin, expressed in spinous layer cells), involucrin (Inv; a suprabasally expressed cornified envelope protein found in upper spinous and granular layer cells), loricrin (Lor; a cornified envelope protein expressed in the granular layer), and filaggrin (Fil; a protein that bundles keratin filaments in the granular layer and stratum corneum)."
+3941,346,f,"Note abnormal extension of anti-K5 suprabasally, often present in anti-K1 positive suprabasal Tg cells."
+3942,347,f,"(I–N) Immunohistochemistry (I and J) or immunofluorescence (K–N) of sections of P30 Wt (I, K, and M) and Tg (J, L, and N) (affected areas) skins using the antibodies indicated."
+3943,348,f,"Note that with age, affected areas of the Tg epidermis became increasingly undulating, often exhibiting papilloma-like invaginations (J)."
+3944,349,f,"Insets in I and J are magnified views of the boxed areas, illustrating the absence (Wt) or presence (Tg) of nuclear anti-cyclin D staining."
+3945,350,f,"With age, affected areas of the Tg epidermis also displayed perturbations within the basement membrane, as judged by antibody labeling against either basement membrane (K and L) or hemidesmosomal (M and N) components."
+3946,351,f,"Double arrows in L demarcate mosaic zones, revealing that perturbations were restricted to hyperthickened, i.e., Snail-positive zones (to left of double arrows)."
+3947,352,f,"Other abbreviations are as noted in the legend to <xref ref-type=""fig"" rid=""pbio-0030011-g002"">Figure 2</xref>."
+3948,353,ft,Figure 4
+3949,354,f,(A) Immunofluorescence of skin sections from P30 Wt and Tg mice.
+3950,355,f,"Shown are affected areas of Tg skin; in areas where Snail protein was not expressed, stainings were normal."
+3951,356,f,"Antibodies used are against AJ proteins and include E-cadherin (E-cad), the transmembrane core protein; β-catenin (β-cat), which binds E-cadherin at AJs and which can also participate as a transcription cofactor when associated with LEF-1/TCF proteins in the nucleus; α-catenin (α-cat) which binds to both β-catenin and Ajuba, a close relative of zyxin; and Ajuba, which can associate with proteins that bind to the actin cytoskeleton, as well as with Grb-2, a mediator of the GTP nucleotide-exchange protein Sos, involved in activation of the Ras-MAPK signaling cascade."
+3952,357,f,"In Snail-expressing Tg regions, there was a reduced staining with anti-E-cad and anti-α-cat and a more diffuse staining with anti-Ajuba."
+3953,358,f,Insets in the panels for β-catenin and Ajuba staining are magnified views of the boxed areas.
+3954,359,f,Arrows mark membrane localization of the protein and asterisks mark cells with elevated levels of cytoplasmic β-catenin or Ajuba.
+3955,360,f,(B) Western blot analyses of protein extracts from P30 Wt and Tg back and ear skins.
+3956,361,f,"Antibodies are as in (A) except anti-P-cad, which detects P-cadherin, whose expression in the hair follicle was not affected, and anti-tubulin, which detects tubulin, a control for equal protein loadings."
+3957,362,f,"Note that the reductions seen in E-cadherin and α-catenin are likely to be underestimates of the actual differences in affected regions, since the Tg skin expressed Snail mosaically."
+3958,363,f,"(C) In the presence of elevated Snail, α-catenin levels can be restored by overexpression of E-cadherin."
+3959,364,f,Keratinocytes were transfected with either HA-tagged Snail (Snail[HA]; images on the left) or Snail(HA) and Ecad(HA) (images on the right).
+3960,365,f,"2 d after transfection, cells were switched from low-calcium growth medium to high-calcium medium for 6 h to induce AJ formation."
+3961,366,f,Cells were stained with antibodies as indicated on the panels.
+3962,367,f,Arrowheads point to sites of intercellular contact between a Snail-transfected keratinocyte and its neighboring untransfected cell.
+3963,368,f,(D) Reintroduction <i>of E-cadherin</i> in keratinocytes expressing Snail returns pMAPK to basal levels.
+3964,369,f,"Keratinocytes were transfected with control vector (K14), or <i>Snail(HA),</i> or <i>Snail(HA)</i> + <i>E-cad(HA)</i>."
+3965,370,f,"After 2 d, cells were serum starved for 4 h and whole cell lysates were made and Western blotted with antibodies to pMAPK, HA to recognize the HA-tagged Snail and E-cadherin protein, 20or tubulin as a loading control."
+3966,371,f,(E) Ajuba interacts with Grb-2 under conditions where α-catenin levels are reduced.
+3967,372,f,"Protein extracts were made from skins of P30 Wt and <i>K14-Snail</i> Tg P30 mice (blots on the left) and of newborn Wt and <i>K14-Cre/α-catenin (fl/fl)</i> conditionally null animals (blots on the right) [<xref ref-type=""bibr"" rid=""pbio-0030011-b07"">7</xref>]."
+3968,373,f,"Equal amounts of protein extracts were treated with anti-Grb-2 antibody (+) or control isotype antibody (–), and following centrifugation, immunoprecipitates were subjected to SDS-PAGE and Western blot analysis with anti-Ajuba and anti-Grb-2 antibodies."
+3969,374,f,Note the presence of Ajuba only under conditions where levels of α-catenin and other AJ proteins were aberrantly low or absent.
+3970,375,f,(F) Transgene expression of excess Ajuba or the Grb-2-interacting domain (pre-LIM) of Ajuba in keratinocytes results in the activation of the Ras-MAPK pathway.
+3971,376,f,"Primary newborn mouse keratinocytes were transfected with either the empty K14 expression vector (K14), or the expression vector driving Snail, full length Ajuba, or the pre-LIM domain of Ajuba in the absence or presence of a peptide inhibitor (inh) that disrupts the interaction between Grb-2 and Sos."
+3972,377,f,"48 h posttransfection, protein extracts were prepared and subjected to SDS-PAGE and Western blot analyses with antibodies against pMAPK, total MAPK, Ajuba (also recognizing the smaller, pre-LIM domain), and Snail."
+3973,378,ft,Figure 5
+3974,379,f,(A) Failure of Wnt and noggin signaling to induce Snail in cultured keratinocytes.
+3975,380,f,Primary mouse keratinocytes were treated with Wnt- and/or noggin-conditioned medium (+) or the corresponding control medium (–).
+3976,381,f,"These conditions are known to activate the LEF-1/β-catenin reporter TOPGal and down-regulate the <i>E-cadherin</i> promoter (see [<xref ref-type=""bibr"" rid=""pbio-0030011-b04"">4</xref>] for details)."
+3977,382,f,"Using Western blot analyses, cellular proteins were then analyzed for Snail, LEF-1, β-catenin, and tubulin."
+3978,383,f,Proteins from keratinocytes transfected with K14-<i>Snail</i> were used as a positive control for Snail expression.
+3979,384,f,(B) TGF-β2 can induce Snail protein.
+3980,385,f,Primary keratinocytes were treated for the indicated times with recombinant TGF-β2 (+) or heat inactivated TGF-β2 (–).
+3981,386,f,"Total cellular proteins were then isolated and analyzed by Western blot for Snail, pSMAD2 (reflective of activated TGF- signaling), and tubulin."
+3982,387,f,"Note the activation of Snail expression, peaking at 2 h post-TGF-β2 treatment and then disappearing thereafter."
+3983,388,f,(C) <i>Snail</i> mRNA expression is transiently induced by TGF-β2.
+3984,389,f,"The experiment in (B) was repeated, and this time, total RNAs were isolated from keratinocytes treated with TGF-β2 for the indicated times."
+3985,390,f,RT-PCR was then used with (+) or without (–) reverse transcriptase (RT) and with primer sets specific for <i>Snail</i> and GAPDH mRNAs.
+3986,391,f,"Note that <i>Snail</i> mRNA expression also peaked at 2 h, paralleling Snail protein."
+3987,392,f,(D) TGF-β2 treatment results in enhanced activity of a <i>Snail</i> promoter-β-galactosidase reporter.
+3988,393,f,Keratinocytes were transfected with a β-galactosidase reporter driven by a <i>Snail</i> promoter that is either WT (wt prom) or harbors a mutation in a putative pSMAD2/pSMAD4 binding site (mt prom).
+3989,394,f,"At 2 d posttransfection, cells were treated with either TGF-β or heat-inactivated TGF-β2 (inact) for the times indicated."
+3990,395,f,"β-galactosidase assays were then conducted, and results are reported as fold increase over a basal level of activity of 1."
+3991,396,f,"The experiment was repeated three times in triplicate, and error bars reflect variations in the results."
+3992,397,ft,Figure 6
+3993,398,f,"(A–D) Skins from TGF-β2 WT or KO E17.5 embryos were analyzed for expression of TGF-β2 protein (A), which is present in the epidermis and dermis as previously described [<xref ref-type=""bibr"" rid=""pbio-0030011-b33"">33</xref>] and in the hair bud, pSMAD2 (B), Snail (C), and <i>Snail</i> mRNA (D)."
+3994,399,f,Arrows point to the hair buds.
+3995,400,f,(E) Western blot analyses of Snail expression in the skins of 2-wk-old <i>K14-Smad2</i> transgenic (SMAD2 TG) and WT littermate (WT) mice.
+3996,401,f,Antibody to tubulin was used as a control for equal protein loadings.
+3997,402,f,"The K14-Smad2 Tg mouse was previously shown to possess activated TGF-β signaling [<xref ref-type=""bibr"" rid=""pbio-0030011-b35"">35</xref>]."
+3998,403,f,(F–G) Proliferation markers Ki67 (F) and pMAPK (G) are diminished in <i>TGF-β2</i>-null hair relative to its WT counterpart.
+3999,404,f,(H–J) <i>TGF-β2</i>-null hair fails to down-regulate E-cadherin (H).
+4000,405,f,Wnt and noggin signaling pathways are still intact in the TGF-β2 null hair as nuclear LEF-1 (I) and nuclear β-catenin (J) are still expressed.

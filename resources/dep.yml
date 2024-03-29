@@ -1,0 +1,50 @@
+# description: dependenency configuration
+
+
+## Language
+#
+transformer_fixed_resource:
+  # sbert large model
+  model_id: sentence-transformers/all-mpnet-base-v2
+  cache: true
+
+white_space_doc_paresr:
+  token_feature_ids: 'set: norm'
+  class_name: zensols.nlp.WhiteSpaceTokenizerFeatureDocumentParser
+
+
+## Embedding
+#
+calamr_embedding_resource:
+  class_name: zensols.calamr.EmbeddingResource
+  torch_config: 'instance: gpu_torch_config'
+  # helps with node embeddings that have no token alignments
+  word_piece_doc_factory: 'instance: white_space_doc_paresr'
+  word_piece_document_factory: 'instance: word_piece_doc_factory'
+  propbank_db: 'instance: pbdb_db'
+
+
+## AMR
+#
+# amr_parser:
+#   model: amr
+
+# amr_anon_doc_factory_stash:
+#   amr_sent_model: amr
+
+amr_serialized_factory:
+  includes:
+    - sentence_text
+    - sentences
+    - annotated_summary
+    - annotated_sections
+
+# override to add word piece embeddings
+amr_anon_feature_doc_stash:
+  class_name: zensols.calamr.annotate.AddEmbeddingsFeatureDocumentStash
+  word_piece_doc_factory: 'instance: word_piece_doc_factory'
+
+# override to add word embeddings
+anon_doc_factory:
+  class_name: zensols.calamr.annotate.CalamrAnnotatedAmrFeatureDocumentFactory
+  word_piece_doc_factory: 'instance: word_piece_doc_factory'

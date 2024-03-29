@@ -1,0 +1,58 @@
+# description: scorer configuration
+
+
+## Score methods
+#
+nlp_exact_match_score_method:
+  class_name: zensols.nlp.score.ExactMatchScoreMethod
+
+nlp_levenshtein_score_method:
+  class_name: zensols.nlp.score.LevenshteinDistanceScoreMethod
+
+nlp_bleu_score_method:
+  class_name: zensols.nlp.score.BleuScoreMethod
+
+nlp_rouge_score_method:
+  class_name: zensols.nlp.score.RougeScoreMethod
+
+nlp_semeval_score_method:
+  class_name: zensols.nlp.nerscore.SemEvalScoreMethod
+
+
+## Method groupings
+#
+nlp_scorer_methods:
+  exact_match: >-
+    'exact_match': 'nlp_exact_match_score_method',
+  levenshtein: >-
+    'levenshtein': 'nlp_levenshtein_score_method',
+  bleu: >-
+    'bleu': 'nlp_bleu_score_method',
+  rouge: >-
+    'rouge1': 'nlp_rouge_score_method',
+    'rouge2': 'nlp_rouge_score_method',
+    'rouge3': 'nlp_rouge_score_method',
+    'rouge4': 'nlp_rouge_score_method',
+    'rouge5': 'nlp_rouge_score_method',
+    'rouge6': 'nlp_rouge_score_method',
+    'rouge7': 'nlp_rouge_score_method',
+    'rouge8': 'nlp_rouge_score_method',
+    'rouge9': 'nlp_rouge_score_method',
+    'rougeL': 'nlp_rouge_score_method',
+
+nlp_ner_scorer_methods:
+  semeval: >-
+    'semeval': 'nlp_semeval_score_method'
+
+
+## Scorer
+#
+nlp_scorer:
+  class_name: zensols.nlp.score.Scorer
+  methods: >-
+    instance: dict: {
+      ${nlp_scorer_methods:exact_match}
+      ${nlp_scorer_methods:levenshtein}
+      ${nlp_scorer_methods:bleu}
+      ${nlp_scorer_methods:rouge}
+      }

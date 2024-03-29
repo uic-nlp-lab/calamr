@@ -1,0 +1,5 @@
+split,labeled,unlabeled,sent,doc
+the dataset split,Expanded edges with 'null' label,"edges with both the source and destination concepts have identical labels, but ignores the edge label",sentence level graph expansion,document-level graph expansion 
+training,64.8,67.0,75.5,84.6
+dev,77.3,78.6,85.4,91.8
+test,63.0,64.7,75.0,83.3

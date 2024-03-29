@@ -1,0 +1,242 @@
+,doc_sent_idx,sent_type,snt
+5733,1,t,MEK inhibitors as a chemotherapeutic intervention in multiple myeloma (PMID:23524590)
+5734,2,a,"The Ras/Raf/MEK/extracellular signal regulated kinase (ERK) (Ras/mitogen-activated protein kinases (MAPK)) signal transduction pathway is a crucial mediator of many fundamental biological processes, including cellular proliferation, survival, angiogenesis and migration."
+5735,3,a,"Aberrant signalling through the Ras/MAPK cascade is common in a wide array of malignancies, including multiple myeloma (MM), making it an appealing candidate for the development of novel targeted therapies."
+5736,4,a,"In this review, we explore our current understanding of the Ras/MAPK pathway and its role in MM."
+5737,5,a,"Additionally, we summarise the current status of small molecule inhibitors of MEK under clinical evaluation, and discuss future approaches required to optimise their use."
+5738,6,s,"<sec-title level=""1"">Introduction</sec-title>"
+5739,7,b,Mitogen-activated protein kinases (MAPKs) are a family of ubiquitously expressed serine/threonine kinases that transmit diverse cell surface signals throughout the cell.
+5740,8,b,MAPK pathways consist of a three-tiered signalling module activated via a phosphorylation cascade.
+5741,9,b,"The most proximal kinase in these pathways, the MAPK kinase kinase (MAPKKK or MAP3k), engaged by extracellular signals, phosphorylates a dual specificity MAPK kinase (MAPKK or MAP2K), which in turn phosphorylates and actives the distil effector MAPK."
+5742,10,b,"Mammalian MAPK pathways are represented by the Extracellular Signal Regulated Kinase (ERK), c-Jun N-terminal kinase, p38, ERK 5, ERK 3/4 and ERK 7/8 pathways.<sup><xref ref-type=""bibr"" rid=""bib1"">1</xref></sup>"
+5743,11,b,"The Ras/MAPK pathway is the best characterised of the mammalian MAPK signal transduction networks, consisting of the Ras proteins, a family of small G-coupled molecules, the Raf kinases (MAP3K), the MAP2K kinases (MEK1 and MEK2) and the pathway distil kinases ERK1 and ERK2."
+5744,12,b,"The Ras/MAPK network is frequently deregulated in malignancy and contributes to many of the hallmarks of oncogenesis, including abnormal cellular proliferation, impaired apoptosis, enhanced angiogenesis, metastasis and the development of drug resistance.<sup><xref ref-type=""bibr"" rid=""bib2"">2</xref></sup>"
+5745,13,b,"MEK lies at a critical juncture within the Ras/MAPK pathway, having a limited number of direct upstream MAP3K activators and ERK1/2 as its only known cellular targets, thereby making it an attractive target for cancer therapy."
+5746,14,b,Several MEK inhibitors have been developed and investigated in preclinical and clinical models.
+5747,15,b,"Results from these studies have been promising and suggest that MEK inhibitors, whether alone or in combination with other anticancer therapies, may have a significant role to play in the future management of malignancy."
+5748,16,b,"Current management strategies for multiple myeloma (MM) involve conventional chemotherapeutics and novel anti-MM agents (thalidomide, lenalidomide and bortezomib), with or without subsequent autologous stem cell transplantation.<sup><xref ref-type=""bibr"" rid=""bib3"">3</xref></sup>"
+5749,17,b,"Although these anticancer therapies are typically effective initially, MM remains a fatal and largely incurable disease."
+5750,18,b,This is due to the high frequency of relapse and the eventual development of drug resistance.
+5751,19,b,"Accumulative genetic changes within malignant plasma cells, together with MM interplay with the bone marrow microenvironment (BMME), potentiate disease progression by promoting the deregulation of multiple signal transduction networks, one of which is the Ras/MAPK pathway.<sup><xref ref-type=""bibr"" rid=""bib4"">4</xref>, <xref ref-type=""bibr"" rid=""bib5"">5</xref></sup>"
+5752,20,b,This suggests that MM patients may benefit from the abrogation of this kinase network through the administration of a MEK inhibitor.
+5753,21,b,"Here, we discuss the Ras/MAPK pathway, its involvement in MM and the role of MEK inhibitors in the future management of the disease."
+5754,22,b,"<sec-title level=""2"">Overview of the Ras/Raf/MEK/ERK pathway</sec-title>"
+5755,23,b,"Members of the Ras protein subfamily (H-, K- and N-Ras) function as molecular switches in cellular signal transduction."
+5756,24,b,"Diverse growth factor, mitogen and cytokine engagement of cognate receptors leads to the recruitment of the GDP/GTP exchange factors, growth-factor-receptor bound protein 2 (Grp2) and Sons of Sevenless (SOS) to the plasma membrane where Ras resides."
+5757,25,b,"The grp2/SOS complex then promotes inactive Ras to exchange GDP with GTP and enters an activated state.<sup><xref ref-type=""bibr"" rid=""bib6"">6</xref></sup>"
+5758,26,b,"Activated Ras then recruits Raf to the cell membrane, where it is activated by phosphorylation."
+5759,27,b,"This process is antagonised by GTPase-activating proteins, which promote GTP hydrolysis and the formation of inactive Ras-GDP complexes.<sup><xref ref-type=""bibr"" rid=""bib7"">7</xref></sup>"
+5760,28,b,"Approximately 30% of malignancies contain activating mutations in a Ras proto-oncogene, with pancreatic (90%), colon (50%) and thyroid (50%) carcinomas demonstrating the highest prevalence."
+5761,29,b,"Mutations typically affect K-Ras and N-Ras, but rarely H-Ras, and occur in a mutually exclusive manner.<sup><xref ref-type=""bibr"" rid=""bib8"">8</xref></sup>"
+5762,30,b,"The Raf family of serine/threonine kinases (A-, B- and c-Raf (Raf-1)) lie at the apex of the MEK/ERK pathway."
+5763,31,b,All three Raf isoforms share similar structural characteristics.
+5764,32,b,"However, they differ in their ability to phosphorylate and activate MEK, with B-Raf demonstrating higher basal kinase activity compared with Raf-1 and A-Raf.<sup><xref ref-type=""bibr"" rid=""bib9"">9</xref>, <xref ref-type=""bibr"" rid=""bib10"">10</xref></sup>"
+5765,33,b,"Activating B-Raf mutations have been described in 66% of melanomas and to a lesser degree in other solid tumours.<sup><xref ref-type=""bibr"" rid=""bib11"">11</xref></sup>"
+5766,34,b,"The clinical relevance of this association is reinforced by the exquisite sensitivity of these B-Raf mutated tumours to MEK inhibition.<sup><xref ref-type=""bibr"" rid=""bib12"">12</xref></sup>"
+5767,35,b,"Despite a high prevalence of activating B-Raf mutations in melanoma and solid tumours, these mutations are infrequent in MM.<sup><xref ref-type=""bibr"" rid=""bib13"">13</xref></sup>"
+5768,36,b,This suggests that molecules other than B-Raf or alternative kinase pathways may have a crucial role in MM tumourigenesis.
+5769,37,b,"MEK is a unique dual specificity kinase that phosphorylates both serine/threonine and tyrosine residues.<sup><xref ref-type=""bibr"" rid=""bib14"">14</xref></sup>"
+5770,38,b,"MEK consists of two isoforms, MEK1 and MEK2, which in turn phosphorylate ERK1 and ERK2.<sup><xref ref-type=""bibr"" rid=""bib15"">15</xref></sup>"
+5771,39,b,"Activated ERK1/2 control a diverse range of cellular processes through their many substrates (>160) that are located in cellular membranes, the cytoplasm and nucleus."
+5772,40,b,"Many of these are transcription factors that are important in cellular proliferation, differentiation, survival, angiogenesis and migration.<sup><xref ref-type=""bibr"" rid=""bib16"">16</xref></sup>"
+5773,41,b,Physiological activation of the Ras/MAPK pathway is also influenced by multiple mechanisms.
+5774,42,b,"Inhibitory molecules, such as Sprouty proteins (SPRY) and MAPK phosphatases (MKP or DUSPs), engage the pathway at different points to negatively regulate signalling.<sup><xref ref-type=""bibr"" rid=""bib17"">17</xref>, <xref ref-type=""bibr"" rid=""bib18"">18</xref></sup>"
+5775,43,b,Activated ERK induces the expression of these inhibitory factors.
+5776,44,b,"For example, certain DUSPs, induced by ERK-regulated transcription factors, dephosphorylate ERK.<sup><xref ref-type=""bibr"" rid=""bib19"">19</xref></sup>"
+5777,45,b,"Downstream signalling from B-Raf, Raf-1 and MEK1 may also be diminished following ERK-mediated phosphorylation.<sup><xref ref-type=""bibr"" rid=""bib20"">20</xref>, <xref ref-type=""bibr"" rid=""bib21"">21</xref></sup>"
+5778,46,b,These various mechanisms fine tune the activity of the Ras/MAPK cascade through the creation of a negative-feedback loop.
+5779,47,b,"As will be discussed later, this mode of regulation has implications for inhibitors targeting the pathway."
+5780,48,s,"<sec-title level=""2"">The Ras/MAPK pathway and MM</sec-title>"
+5781,49,b,The genetic changes associated with MM are complex and heterogeneous.
+5782,50,b,"Increasing evidence suggests that the disease evolves through a multistep transformation process, involving the gain or loss of whole chromosomes, nonrandom chromosomal translocations involving the IgH locus and point mutations.<sup><xref ref-type=""bibr"" rid=""bib4"">4</xref></sup>"
+5783,51,b,"These aberrations, which influence the clinical and pathological features of MM are manifest in variable disease progression and therapeutic outcomes."
+5784,52,b,Several of these molecular alterations lead to deregulated activation of the Ras/MAPK pathway.
+5785,53,b,"The t(4;14) translocation that juxtaposes the fibroblast growth factor receptor 3 gene and a strong IgH enhancer, resulting in fibroblast growth factor receptor 3 overexpression, stimulates the Ras/MAPK pathway, an outcome typically associated with abnormal cellular proliferation and apoptosis.<sup><xref ref-type=""bibr"" rid=""bib22"">22</xref></sup>"
+5786,54,b,"Activating Ras mutations, which have a reported incidence varying between 32–50% in MM, are also thought to deregulate this pathway.<sup><xref ref-type=""bibr"" rid=""bib23"">23</xref>, <xref ref-type=""bibr"" rid=""bib24"">24</xref>, <xref ref-type=""bibr"" rid=""bib25"">25</xref></sup>"
+5787,55,b,"K-Ras and N- Ras are the most frequently mutated, with oncogenic H-Ras being a rare phenomenon.<sup><xref ref-type=""bibr"" rid=""bib25"">25</xref></sup>"
+5788,56,b,"While certain genetic lesions common to MM (for example, t(14;16), t(4;14) and hyperdiploidy) are also present in the asymptomatic precursor to MM, monoclonal gammopathy of unknown significance,<sup><xref ref-type=""bibr"" rid=""bib26"">26</xref></sup> Ras mutations occur almost exclusively in MM."
+5789,57,b,"This indicates that Ras mutations are likely to contribute to the transition of the disease from a premalignant state.<sup><xref ref-type=""bibr"" rid=""bib27"">27</xref></sup>"
+5790,58,b,"In the case of the t(4:14) lesion that can activate the Ras/MAPK pathway, this raises the interesting possibility that deregulation of the Ras/MAPK pathway in monoclonal gammopathy of unknown significance precedes constitutive MAPK activation associated with Ras mutations."
+5791,59,b,"Patients with MM harbouring oncogenic K-Ras often have a worse clinical outcomes compared with those with N-Ras mutations or wild-type Ras <sup><xref ref-type=""bibr"" rid=""bib24"">24</xref></sup> This link is exemplified by Ras mutations being associated with the evolution of MM from an intermedullary disease to a more advanced extramedullary phenotype.<sup><xref ref-type=""bibr"" rid=""bib28"">28</xref></sup>"
+5792,60,b,These observations suggest that aberrant MEK/ERK signalling has an important role in MM disease progression and prognosis.
+5793,61,b,"Malignant plasma cell and BMME interactions are thought to contribute to disease progression through the induction of various cytokines and growth factors, a number of which mediate their effects through the Ras/MAPK cascade.<sup><xref ref-type=""bibr"" rid=""bib5"">5</xref>, <xref ref-type=""bibr"" rid=""bib29"">29</xref>, <xref ref-type=""bibr"" rid=""bib30"">30</xref></sup>"
+5794,62,b,"In addition to a number of these cytokines being able to activate MEK/ERK via the classical Ras/Raf link, another MAP3K, Tpl2 (Cot, MAP3K8), a known oncogene, has emerged as being important in the cytokine-induced activation of ERK in various cell types, in particular hemopoietic cells.<sup><xref ref-type=""bibr"" rid=""bib31"">31</xref></sup>"
+5795,63,b,"The observation that the tumour necrosis factor receptor superfamily cytokines (tumour necrosis factor-α, BAFF), CD40 and RANK ligands, all of which have been implicate in MM, activate MEK/ERK via Tpl2 raises the likelihood that the MEK/ERK arm of this MAPK pathway can be activated through different MAP3K.<sup><xref ref-type=""bibr"" rid=""bib32"">32</xref></sup>"
+5796,64,b,"With aberrant MEK/ERK signalling thought to be important in regulating the growth, survival, migration and drug resistance of MM, it will be interesting to determine if specific MAP3Ks differentially control these particular features of the disease."
+5797,65,b,Interactions between Bcl-2-like prosurvival and BH3-only pro-apoptotic family members play an integral role in controlling the balance between cell survival and death though the intrinsic apoptosis pathway.
+5798,66,b,"Aberrant expression of these apoptotic regulatory molecules in diverse cancers, including MM, contributes to drug resistance."
+5799,67,b,"Importantly, the activity of a number of these proteins is modulated by MEK/ERK signalling."
+5800,68,b,"For example, ERK-mediated phosphorylation of the antiapoptotic molecule, Mcl-1, decreases its degradation, thereby promoting cell survival.<sup><xref ref-type=""bibr"" rid=""bib33"">33</xref></sup>"
+5801,69,b,"With the overexpression of Mcl-1, a common feature of MM associated with greater relapse and shorter survival,<sup><xref ref-type=""bibr"" rid=""bib34"">34</xref></sup> constitutive MEK/ERK activity almost certainly contributes to elevated Mcl-1 expression in those MM with lesions in the Ras/ERK pathway."
+5802,70,b,"In contrast, Bim, a proapoptotic Bcl-2 family member that can bind to and neutralize Mcl-1, is targeted by ERK phosphorylation for proteasome-dependent degradation.<sup><xref ref-type=""bibr"" rid=""bib35"">35</xref></sup>"
+5803,71,b,"Hence, constitutive ERK signalling is likely to contribute significantly to MM survival by stabilising Mcl-1 and diminishing Bim expression."
+5804,72,b,"The activity of other prosurvival (Bcl-2 and Bcl-xL) and proapoptotic (Bad) Bcl-2-like proteins, that are also known to be regulated by ERK signalling, represent additional candidates that may contribute to the enhanced survival of MM cells."
+5805,73,s,"<sec-title level=""2"">MEK inhibitors</sec-title>"
+5806,74,b,"MEK1 and MEK2 are homologous dual specificity kinases that share ERK as their only known catalytic substrate,<sup><xref ref-type=""bibr"" rid=""bib15"">15</xref></sup> making MEK an appealing target for cancer drug development."
+5807,75,b,"Although many kinase inhibitors target the ATP-binding region of an enzyme, MEK contains a hydrophobic allosteric pocket adjacent to the ATP-binding site that is not shared with other kinases.<sup><xref ref-type=""bibr"" rid=""bib36"">36</xref></sup>"
+5808,76,b,This offers the opportunity to design highly selective inhibitors of MEK that do not simply target the conserved ATP region of the kinase.
+5809,77,b,"In the remainder of the review, we describe some of the various MEK inhibitors currently being investigated and their future role in cancer therapy."
+5810,78,s,"<sec-title level=""2"">Prototypic MEK inhibitors</sec-title>"
+5811,79,b,"Despite demonstrating <i>in vitro</i> activity, major <i>in vivo</i> limitations were identified for the early first generation MEK inhibitors, PD098059<sup><xref ref-type=""bibr"" rid=""bib37"">37</xref></sup> and U0126.<sup><xref ref-type=""bibr"" rid=""bib38"">38</xref></sup>"
+5812,80,b,Although both compounds were deemed unsuitable for clinical consideration they have proven to be invaluable tools for investigating the Ras/MAPK pathway.
+5813,81,b,"CI-1040 (PD184352) was the first MEK inhibitor to demonstrate tumour inhibitory activity <i>in vivo</i>.<sup><xref ref-type=""bibr"" rid=""bib39"">39</xref></sup>"
+5814,82,b,"Encouraging phase I results in advanced cancer patients, where one patient with pancreatic cancer achieved a partial response (PR) lasting 12 months, prompted a phase II study of CI-1040 in patients with advanced solid tumours.<sup><xref ref-type=""bibr"" rid=""bib40"">40</xref></sup>"
+5815,83,b,"However, in contrast to the phase I trial, no PR was observed.<sup><xref ref-type=""bibr"" rid=""bib41"">41</xref></sup>"
+5816,84,b,"As a result of its weak antitumour activity, development of CI-1040 was terminated in favour of the more potent PD0325901."
+5817,85,b,"Compared with CI-1040, PD0325901 demonstrates significantly improved potency in cell-based assays (100-fold), oral bioavailability and metabolic stability.<sup><xref ref-type=""bibr"" rid=""bib42"">42</xref></sup>"
+5818,86,b,Phase I investigation of PD0325901 was conducted in 66 advanced cancer patients.
+5819,87,b,"Three of 48 evaluable patients with melanoma achieved PR, while 10 had stable disease (s.d.) for ≥4 months."
+5820,88,b,"A subset of these patients developed retinal vein occlusion.<sup><xref ref-type=""bibr"" rid=""bib43"">43</xref></sup>"
+5821,89,b,"A phase II study of PD0325901 was assessed in 34 advanced non-small cell lung carcinoma patients, but was eventually terminated owing to lack of objective responses and increasing concerns about ocular function and neurotoxicity at therapeutic doses.<sup><xref ref-type=""bibr"" rid=""bib44"">44</xref></sup>"
+5822,90,b,"Investigation of these treatment-related toxicities was conducted in animal models, where PD0325901 was found to cause retinal vein occlusion in rabbits."
+5823,91,b,"This adverse effect was attributed to the abrogation of phosphorylated-ERK (p-ERK) within the brain.<sup><xref ref-type=""bibr"" rid=""bib45"">45</xref></sup>"
+5824,92,b,"In light of these observations, development of PD0325901 has been suspended."
+5825,93,s,"<sec-title level=""2"">MEK inhibitors in development</sec-title>"
+5826,94,b,"AZD6244/ARRY-142886 (selumetinib) is a potent MEK inhibitor that has demonstrated significant tumour suppressive activity in a number of preclinical solid tumour models.<sup><xref ref-type=""bibr"" rid=""bib46"">46</xref>, <xref ref-type=""bibr"" rid=""bib47"">47</xref>, <xref ref-type=""bibr"" rid=""bib48"">48</xref></sup>"
+5827,95,b,"In cell-based enzymatic assays, AZD6244 inhibited purified MEK at an IC<sub>50</sub> of 14.1±0.79 nM, with no inhibition observed at 10 μℳ against 40 other kinases."
+5828,96,b,"Cell lines harbouring oncogenic B-Raf and N-Ras mutations displayed enhanced sensitivity to AZD6244, whereas K-Ras mutated tumours showed variable responsiveness.<sup><xref ref-type=""bibr"" rid=""bib47"">47</xref></sup>"
+5829,97,b,"In 2004, a total of 57 patients with advanced cancer were treated in a phase I evaluation of AZD6244."
+5830,98,b,"The best clinical response achieved was s.d. ≥ for 5 months in 9 patients, with 2 patients maintaining s.d. for 19 and 22 months."
+5831,99,b,"Similar to PD0325901, blurred vision was reported in 7 patients; however, neurotoxicity was not observed.<sup><xref ref-type=""bibr"" rid=""bib49"">49</xref></sup>"
+5832,100,b,"Several phase II trials have since examined the effectiveness of AZD6244 in a diverse range of solid tumours.<sup><xref ref-type=""bibr"" rid=""bib50"">50</xref>, <xref ref-type=""bibr"" rid=""bib51"">51</xref>, <xref ref-type=""bibr"" rid=""bib52"">52</xref></sup>"
+5833,101,b,"In each of these studies, the efficacy and tolerability of AZD6244 was compared with a conventional chemotherapeutic agent."
+5834,102,b,"However, even though some objective responses were observed, AZD6244 failed to demonstrate superior clinical responses over established treatment modalities."
+5835,103,b,As a result of these studies there has not been an advocacy for AZD6244 as a monotherapy.
+5836,104,b,"AS703026/MSC1935369 demonstrates IC<sub>50</sub> values in the subnanomolar range and potently inhibits tumour growth <i>in vivo.</i><sup><xref ref-type=""bibr"" rid=""bib53"">53</xref></sup> Eighty-five advanced cancer patients were recruited for the phase I trial of AS703026."
+5837,105,b,"Visual disturbances were reported in a subset of patients, including some cases of serous macular detachment."
+5838,106,b,"Tumour shrinkage was witnessed in four melanoma patients, three of whom (all bearing B-Raf mutations) demonstrated PR.<sup><xref ref-type=""bibr"" rid=""bib54"">54</xref></sup>"
+5839,107,b,"XL-518/GDC-0973 is a potent, orally bioavailable inhibitor that blocks MEK1 function with an IC<sub>50</sub><1 nℳ in enzymatic assays measuring ERK phosphorylation."
+5840,108,b,Pharmacodynamic studies have demonstrated that a single dose of GDC-0973 inhibits p-ERK in xenograft tumours for up to 48 h.
+5841,109,b,"In contrast to PD0325901, p-ERK levels in mouse brain tissue were not significantly suppressed following the administration of GDC-0973, suggesting reduced potential for adverse CNS events.<sup><xref ref-type=""bibr"" rid=""bib55"">55</xref></sup>"
+5842,110,b,A phase I study of GDC-0972 in patients with solid tumour was initiated in 2007.
+5843,111,b,"Confirmed PR were witnessed in three melanoma patients, two of which harboured B-Raf V600E mutations."
+5844,112,b,"Six patients with prolonged s.d. (≥5 months) have been observed to date.<sup><xref ref-type=""bibr"" rid=""bib56"">56</xref></sup>"
+5845,113,b,"The MEK inhibitor, BAY869766/RDEA119, specifically inhibits MEK1 (IC<sub>50</sub>=19 nℳ) and MEK2 (IC<sub>50</sub>=47 nℳ) when compared with 205 other kinases."
+5846,114,b,"The antitumour effect of BAY8697655 has been established in mouse xenograft models, with potent growth inhibition observed during drug treatment.<sup><xref ref-type=""bibr"" rid=""bib57"">57</xref></sup>"
+5847,115,b,"Early data from the BAY8679655 phase I trial demonstrates good drug tolerability, with rash being the most prevalent treatment-related adverse effect."
+5848,116,b,"Among the 69 advanced cancer patients enroled in the trial, 10 achieved s.d. with a mean duration of 10 months."
+5849,117,b,"Phase II development of BAY867966 is currently being pursued in light of these findings.<sup><xref ref-type=""bibr"" rid=""bib58"">58</xref></sup>"
+5850,118,b,GSK1120212 is a structurally novel allosteric MEK inhibitor with an <i>in vitro</i> IC<sub>50</sub> of 0.4±00.1 nℳ for MEK1 activation by B-Raf and 10±2 nℳ for p-MEK1 activity.
+5851,119,b,"In cell lines harbouring activating Ras or B-Raf mutations, GSK1120212 inhibited cell proliferation at IC<sub>50</sub> values <50 nℳ, but demonstrated decreased activity against those cells with wild-type Ras or wild-type-B-Raf.<sup><xref ref-type=""bibr"" rid=""bib59"">59</xref></sup>"
+5852,120,b,"These results are consistent with other MEK inhibitors, where cells with constitutively active Ras/MAPK signalling demonstrate a reliance on these oncogenic pathways, thereby making them hypersensitive to MEK inhibition."
+5853,121,b,"In melanoma xenografted mouse models, GSK1120212 administered orally once daily demonstrated an effective t<sub>1/2</sub> of 36 h with sustained suppression of p-ERK for >24 h.<sup><xref ref-type=""bibr"" rid=""bib60"">60</xref></sup>"
+5854,122,b,"Notably, inhibition of p-ERK was not observed within brain samples."
+5855,123,b,"Phase I results of this compound have recently been presented by Gordon <i>et al.</i><sup><xref ref-type=""bibr"" rid=""bib61"">61</xref></sup> For 22 patients with B-Raf mutant melanoma, 1 CR and 9 PR were observed."
+5856,124,b,"For 22 patients with pancreatic cancer, 1 PR and 9 s.d. were reported."
+5857,125,b,Early data from a phase I/II trial examining GSK1120212 in patients with relapsed/refractory myeloid malignancies harbouring Ras mutations has also recently been reported.
+5858,126,b,Patients were prospectively screened for K- and N-Ras mutations before receiving daily treatment with GSK1120212.
+5859,127,b,"Encouraging signs of clinical activity with manageable adverse effects have been observed.<sup><xref ref-type=""bibr"" rid=""bib62"">62</xref></sup>"
+5860,128,s,"<sec-title level=""2"">Enhancing effectiveness with combination therapies</sec-title>"
+5861,129,b,"Despite improvements in clinical potency and pharmacokinetics, MEK inhibitors have generally shown limited effectiveness as monotherapeutic agents."
+5862,130,b,Several reasons may account for this observation.
+5863,131,b,"Abrogation of Ras/MAPK signalling appears to be mainly cytostatic, and suggests that an additional therapeutic modality is required to maximise the antitumour effectiveness of MEK inhibitors."
+5864,132,b,"In hepatocellular carcinoma xenograft models, AZD6244 in conjunction with doxorubicin demonstrated enhanced growth suppression (76%±7), compared with AZD6244 (52±15%) and doxorubicin (12±9%) alone."
+5865,133,b,"This synergy was associated with increased apoptosis.<sup><xref ref-type=""bibr"" rid=""bib63"">63</xref></sup>"
+5866,134,b,"Similar effects have been observed with AZD6244 and docetaxel in malignant melanoma,<sup><xref ref-type=""bibr"" rid=""bib64"">64</xref></sup> and AZD6244 and cytarabine in acute myelogenous leukaemia.<sup><xref ref-type=""bibr"" rid=""bib65"">65</xref></sup>"
+5867,135,b,"The mechanism by which these agents cooperate is not entirely clear, but the available evidence suggests that many of these drugs can activate the Ras/MAPK pathway through diverse processes, thereby increasing the effectiveness of MEK inhibitors.<sup><xref ref-type=""bibr"" rid=""bib66"">66</xref></sup>"
+5868,136,b,"However, the inhibitory effects of MEK on cell cycle progression may potentially reduce the effectiveness of many standard chemotherapeutic agents in combination therapy, due to the reliance of these agents on killing malignant cells that are rapidly dividing."
+5869,137,b,"Therefore, drug scheduling may have a critical role in the optimal utilisation of MEK inhibitors when combined with traditional chemotherapeutic drugs."
+5870,138,b,"In this regard, Yu <i>et al.</i><sup><xref ref-type=""bibr"" rid=""bib67"">67</xref></sup> have demonstrated that incubating leukaemic cells with paclitaxel before PD98059 exposure significantly increased cell death."
+5871,139,b,"In contrast, pretreatment with the MEK inhibitor reduced the susceptibility of cells to paclitaxel-induced apoptosis."
+5872,140,b,Activating mutations within the Ras/MAPK network also contribute to the mechanisms of resistance to MEK inhibitors.
+5873,141,b,"A number of studies have demonstrated that oncogenic amplification of K-Ras and B-Raf confers decreased susceptibility to AZD6244.<sup><xref ref-type=""bibr"" rid=""bib68"">68</xref>, <xref ref-type=""bibr"" rid=""bib69"">69</xref></sup>"
+5874,142,b,"Point mutations within MEK1 may also significantly attenuate the ability of MEK inhibitors to block ERK signalling in B-Raf V600E mutated tumours.<sup><xref ref-type=""bibr"" rid=""bib70"">70</xref></sup>"
+5875,143,b,These oncogenic events result in constitutive ERK pathway activation.
+5876,144,b,"In the absence of oncogenic Ras and Raf mutations, other oncogenic events that engage the Ras/MAPK pathway are also likely to stimulate normal feedback mechanisms that may increase the activity of various intermediaries in the Ras/MAPK signalling module, thereby promoting the ongoing activation of ERK kinase signalling.<sup><xref ref-type=""bibr"" rid=""bib71"">71</xref></sup>"
+5877,145,b,"For either scenario, the activity of ERK and its target substrates may be maintained at levels that are sufficient to drive key cellular functions even in the presence of a MEK inhibitor."
+5878,146,b,These observations suggest that targeting multiple nodes within the Ras/MAPK network may be a more efficacious clinical strategy than single target therapy.
+5879,147,b,The contribution of multiple signalling networks to tumorigenesis also accounts for the limited responses seen with MEK inhibitors alone.
+5880,148,b,"For example, the phosphatidylinositol 3-kinase (PI3K/Akt/mTOR) and MAPK pathways share Ras as a common upstream effector.<sup><xref ref-type=""bibr"" rid=""bib72"">72</xref></sup>"
+5881,149,b,"Consequently, activation of Ras, despite the downregulation of ERK activity by MKPs and SPRYs, could lead to compensatory signalling through this parallel network."
+5882,150,b,"Alternatively, oncogenic mutations within the PI3K/Akt axis may enhance MEK/ERK signal transduction."
+5883,151,b,"Indeed, dysregulation of the PI3K/Akt pathway has been shown to correlate with the decreased sensitivity to MEK inhibition.<sup><xref ref-type=""bibr"" rid=""bib73"">73</xref></sup>"
+5884,152,b,Predictably targeting both pathways simultaneously has proven effective in several studies.
+5885,153,b,"In AZD6244-resistant gastric cancer cell lines, activation of Akt through the EGFR/PI3K/Akt pathway was still observed following MEK inhibition."
+5886,154,b,"Blockade of this pathway using the EGFR inhibitor, gefitinib, synergistically enhanced tumour apoptosis <i>in vitro</i> and <i>in vivo</i>.<sup><xref ref-type=""bibr"" rid=""bib74"">74</xref></sup>"
+5887,155,b,"Treatment of mutant murine lung cancers with the dual PI3K/mTOR inhibitor, NVP-BEZ235 and AZD6244 produced similar results.<sup><xref ref-type=""bibr"" rid=""bib75"">75</xref></sup>"
+5888,156,b,"Recently, preliminary results from a phase I trial evaluating the combined activity of GDC-0973/XL-518 and the Akt inhibitor, GDC-0941, found that in a cohort of 27 advanced solid tumour patients, three patients achieved prolonged s.d. ≥6 months when treated with both agents.<sup><xref ref-type=""bibr"" rid=""bib76"">76</xref></sup>"
+5889,157,b,"Promising clinical activity has also been observed in the phase I trial of GSK1120212 in conjunction with the Akt inhibitor, GSK2141795.<sup><xref ref-type=""bibr"" rid=""bib77"">77</xref></sup>"
+5890,158,b,The number of preclinical and clinical studies investigating dual Ras/MAPK and PI3K/Akt inhibition indicates a growing trend to using these combinations to maximise antitumour response.
+5891,159,b,Aberrant signalling through additional kinase pathways may also contribute to MEK inhibitor resistance.
+5892,160,b,"For example, although non-small cell lung carcinomas carry both K-Ras and PTEN mutations, resistance of these cell lines to AZD6244 coincides with activation of the Janus kinase/signal transducer and activator of transcription pathway (JAK/STAT) following MEK inhibition.<sup><xref ref-type=""bibr"" rid=""bib78"">78</xref></sup>"
+5893,161,b,AZD6244 combined with STAT3 inhibition synergistically induced apoptosis in these cells.
+5894,162,b,"This effect can be explained by STAT3 suppressing the proapoptotic protein Bim through upregulation of miRNA-17, which antagonises the Bim expression induced by AZD6244.<sup><xref ref-type=""bibr"" rid=""bib79"">79</xref></sup>"
+5895,163,b,"Collectively, these results provide a rationale for combining inhibitors of the JAK/STAT pathway and MEK inhibitors to reduce the potential impact of drug resistance."
+5896,164,b,Information about the use of MEK inhibitors and other kinase pathway inhibitors is unknown.
+5897,165,s,"<sec-title level=""2"">The role of MEK inhibitors in MM</sec-title>"
+5898,166,b,The advent of novel anti-MM agents has improved the management and prognosis of MM.
+5899,167,b,"With the immunomodulatory drugs, thalidomide and lenalidomide, and the proteasome inhibitor, bortezomib, able to abrogate the survival advantage created by the BMME, current research has focussed on combining these novel therapies to improve patient outcomes.<sup><xref ref-type=""bibr"" rid=""bib80"">80</xref></sup>"
+5900,168,b,"To date, promising results have been obtained in several clinical trials.<sup><xref ref-type=""bibr"" rid=""bib81"">81</xref>, <xref ref-type=""bibr"" rid=""bib82"">82</xref></sup>"
+5901,169,b,"However, despite the clinical success of thalidomide, lenalidomide and bortezomib, a subset of patients do not initially respond to or ultimately become refractory to these agents.<sup><xref ref-type=""bibr"" rid=""bib83"">83</xref></sup>"
+5902,170,b,This emphasises the need for innovative anti-MM therapies.
+5903,171,b,"The impact of AZD6244 has been investigated in MM cells within the BMME.<sup><xref ref-type=""bibr"" rid=""bib84"">84</xref></sup>"
+5904,172,b,This compound specifically abrogated constitutive and cytokine-stimulated ERK phosphorylation and induced cytotoxicity in a panel of human myeloma cell lines (HMCL).
+5905,173,b,Responses to AZD6244 were also witnessed in tumour cells derived from MM patients with advanced disease.
+5906,174,b,"These results suggest that AZD6244 is effective at advanced stages of disease, where MM cells are less reliant on the growth factors produced by the BMME."
+5907,175,b,"Furthermore, culturing of HMCL and patient-derived samples in the presence of exogenous interleukin-6 or bone marrow stromal cells did not protect against AZD6244-induced apoptosis."
+5908,176,b,"Synergistically enhanced cell death was noted in combinations of AZD6244 with conventional (dexamethasone) and novel (bortezomib, lenalidomide, perifisone) anti-MM agents."
+5909,177,b,AZD6244 as a single agent was also examined in an <i>in vivo</i> human plasmocytoma xenograft model and demonstrated prolonged survival when compared with control animals.
+5910,178,b,"Breitkreutz <i>et al.</i><sup><xref ref-type=""bibr"" rid=""bib85"">85</xref></sup> have also investigated the consequences of AZD6244 administration on osteoclast differentiation, function and cytokine secretion in MM."
+5911,179,b,AZD6244 blocked osteoclast differentiation and bone reabsorption in a dose-dependent manner.
+5912,180,b,"Furthermore, critical MM growth factors produced by the BMME, including interleukin-6, BAFF, APRIL and MIP-1α were all significantly reduced following AZD6244 treatment."
+5913,181,b,"Taken together, these results indicate that AZD6244 is able to abrogate paracrine signal dependent MM cell survival within the bone marrow niche."
+5914,182,b,Both these studies provide a preclinical rationale for the further evaluation of AZD6244.
+5915,183,b,A phase II trial examining the compound in MM is presently ongoing.
+5916,184,b,"Treatment with AS703026 has also been explored in MM.<sup><xref ref-type=""bibr"" rid=""bib86"">86</xref></sup>"
+5917,185,b,"AS703026 inhibits HMCL and cytokine-induced osteoclast differentiation more potently (9- to 10-fold) than AZD6244, with an IC<sub>50</sub> ranging from 0.005–2 μℳ."
+5918,186,b,No discernable relationship between Ras or Raf mutational status and the sensitivity of HMCL to AS703026 was observed.
+5919,187,b,This compound also induced apoptosis in HMCL cultured in the presence of bone marrow stromal cells.
+5920,188,b,"Further evaluation of AS703026 in conjunction with conventional (dexamethasone, melphalan) and novel (lenalidomide, bortezomib, perifisone, rapamycin) anti-MM therapies revealed synergistic cytotoxicity against HMCL and patient samples."
+5921,189,b,"Lastly, for tumour cells isolated from patients with relapsed/refractory MM treated with AS703026 at concentrations below 200 nℳ, dose-dependent cytotoxicity was observed for 15 of 18 patient MM samples."
+5922,190,b,"In this cohort of MM patient samples, while six and two of the patient samples harboured K-Ras/N-Ras and B-Raf mutations, respectively, the presence or absence of Ras or B-Raf mutations did not correlate with the sensitivity to MEK inhibition by AS703026."
+5923,191,b,"Despite these encouraging findings, outcomes from solid tumour models suggest that combination regimes are required to maximise the effectiveness of MEK inhibitors in MM."
+5924,192,b,"AZD6244 and AS703026 have demonstrated improved potency when used in combination with other anti-MM agents.<sup><xref ref-type=""bibr"" rid=""bib84"">84</xref>, <xref ref-type=""bibr"" rid=""bib85"">85</xref>, <xref ref-type=""bibr"" rid=""bib86"">86</xref></sup>"
+5925,193,b,The contribution of additional signalling pathways to MM tumorigenesis also offers the opportunity to target MEK in conjunction with the inhibition of these biochemical networks.
+5926,194,b,"Chatterjee <i>et al.</i><sup><xref ref-type=""bibr"" rid=""bib30"">30</xref></sup> have determined that the combined disruption of the Ras/MAPK and JAK/STAT pathway is required to induce MM apoptosis in the presence of bone marrow stromal cells."
+5927,195,b,"Similarly, the contribution PI3K/Akt and nuclear factor kappa-light-chain-enhancer of activated B cells (NFκB) pathway deregulation exerts on MM and drug resistance also makes these pathways attractive targets for co-inhibition with MEK specific agents.<sup><xref ref-type=""bibr"" rid=""bib5"">5</xref>, <xref ref-type=""bibr"" rid=""bib29"">29</xref></sup>"
+5928,196,b,Several other small molecule inhibitors have also recently emerged as promising therapies in MM.
+5929,197,b,Histone deacetylases (HDAC) represent a family of enzymes that control transcription by modifying histones.
+5930,198,b,"Overexpression of HDAC in MM prevents the transcription of various tumour-suppressor genes, which in turn enhances cellular proliferation and represses cell death.<sup><xref ref-type=""bibr"" rid=""bib87"">87</xref></sup>"
+5931,199,b,"Inhibition of HDAC activity reverses these outcomes, culminating in the accumulation of acetylated histones that promote the apoptosis of malignant cells.<sup><xref ref-type=""bibr"" rid=""bib88"">88</xref></sup>"
+5932,200,b,"Clinical evaluation of the HDAC inhibitors as single agents in relapsed/refractory MM patients has yielded modest response rates.<sup><xref ref-type=""bibr"" rid=""bib89"">89</xref>, <xref ref-type=""bibr"" rid=""bib90"">90</xref></sup>"
+5933,201,b,"Nevertheless, several studies have reported a significant increase in the anti-MM effect of these agents, when used in conjunction with conventional anti-MM chemotherapeutics,<sup><xref ref-type=""bibr"" rid=""bib91"">91</xref></sup> lenalidomide and bortezomib.<sup><xref ref-type=""bibr"" rid=""bib92"">92</xref></sup>"
+5934,202,b,"Combinations of MEK and HDAC inhibitors have been limited to preclinical studies involving chronic myelogenous leukaemia and non-small cell lung carcinoma cell lines, but preliminary results have been promising.<sup><xref ref-type=""bibr"" rid=""bib93"">93</xref>, <xref ref-type=""bibr"" rid=""bib94"">94</xref></sup>"
+5935,203,b,"Heat shock protein 90 (HSP90) is a molecular chaperone that regulates many of the proteins involved in Ras/MAPK, PI3K/Akt, JAK/STAT and NFκB signalling, as well other biochemical pathways that control apoptosis and cell cycle progression.<sup><xref ref-type=""bibr"" rid=""bib95"">95</xref></sup>"
+5936,204,b,"Consistent with these properties, inhibition of HSP90 has been shown to disrupt multiple pathways crucial to MM survival.<sup><xref ref-type=""bibr"" rid=""bib96"">96</xref>, <xref ref-type=""bibr"" rid=""bib97"">97</xref></sup>"
+5937,205,b,"While co-treatment of MM cells with a MEK and HSP90 inhibitors might serve as a means of attenuating the feedback mechanisms that promote resistance to MEK inhibitors, the clinical efficacy of these approaches is dependent upon how selective and active these combination regimes are <i>in vivo</i>."
+5938,206,b,"In particular, the potential interrupting multiple kinase networks has for increasing the likelihood of adverse effects and drug toxicity is likely to be an important factor in determining the optimal use of these agents."
+5939,207,s,"<sec-title level=""2"">Predicting patient responses to MEK inhibitors: identification of relevant biomarkers</sec-title>"
+5940,208,b,"As all MEK inhibitors tested to date demonstrate potent and selective activity against MEK1/2, toxicity profiles and drug exposure are likely to be the key criteria that refine these drugs for therapeutic use."
+5941,209,b,"Furthermore, it has become clear that certain genetic sub-types in solid tumours are associated with increased susceptibility or resistance to MEK inhibitors."
+5942,210,b,"This observation highlights the need for a reliable marker of responsiveness to MEK inhibitors, allowing tailoring of individualised therapies and reducing the occurrence of adverse events."
+5943,211,b,Currently it remains difficult to determine which patients will benefit most from MEK inhibitor treatment.
+5944,212,b,"Whilst activating B-Raf mutations are associated with exquisite sensitivity against these agents, other biochemical markers demonstrate less predictability."
+5945,213,b,"For example, the poor correlation between MEK inhibitor susceptibility Ras genotypes and p-ERK expression is well documented.<sup><xref ref-type=""bibr"" rid=""bib12"">12</xref>, <xref ref-type=""bibr"" rid=""bib41"">41</xref>, <xref ref-type=""bibr"" rid=""bib46"">46</xref>, <xref ref-type=""bibr"" rid=""bib47"">47</xref>, <xref ref-type=""bibr"" rid=""bib48"">48</xref>, <xref ref-type=""bibr"" rid=""bib60"">60</xref></sup>"
+5946,214,b,"In one study, analysis of transcriptional pathway signatures in various solid tumours, identified a panel of 18 genes, the expression of which correlated with responsiveness to AZD6244.<sup><xref ref-type=""bibr"" rid=""bib98"">98</xref></sup>"
+5947,215,b,"This signature contained transcriptional targets of ERK involved in negative-feedback regulation (DUSP4/6 and SPRY2), members of the Ets family of transcription factors (ETV4, ETV5 and ELF1) and other genes associated with MAPK signalling, cell cycle progression and tumour prognosis."
+5948,216,b,A 13-gene signature was also identified that was predictive of resistance to AZD6244.
+5949,217,b,"This diverse set of genes shared common links with transforming growth factor-β (TGF-β), tumour necrosis factor-α and NFκB signalling."
+5950,218,b,The role of these genes in MM and their potential predictive value for MEK inhibitor responsiveness has not been appraised.
+5951,219,b,"Recent data published by Annuziata <i>et al.</i><sup><xref ref-type=""bibr"" rid=""bib99"">99</xref></sup> has reported the use of the musculoaponeurotic fibrosarcoma (MAF) oncogene as a potential biomarker for MEK inhibitor responses in MM."
+5952,220,b,"In approximately 10% of cases, aberrant MAF expression is due to a (14;16) translocation."
+5953,221,b,High levels of MAF were also observed in patient samples with t(4;14) translocations.
+5954,222,b,Both t(4:16) and t(4;14) translocations correlate with disease progression and worse overall survival.
+5955,223,b,"The MEK/ERK pathway was found to regulate transcription of the MAF proto-oncogene through ERK activation of FOS, a finding consistent with MAF protein and mRNA levels being downregulated following MEK inhibition."
+5956,224,b,"To examine the dependence of MM cells on MEK/ERK signalling, U0126 was administered to 16 HMCL that represented the heterogeneous onco-genetics of the disease."
+5957,225,b,"Of the 10 HMCL killed by this MEK inhibitor in a dose-dependent manner, 9 cell lines exhibited a t(4;16) or t(4;14) translocation and over expressed MAF."
+5958,226,b,"Moreover, the cytotoxic effect of U0126 was not neutralised by the presence of bone marrow stromal cells and remarkably, the impact of MEK inhibition on MM viability could be rescued by exogenous MAF expression."
+5959,227,b,"Importantly, this study provides a mechanistic rationale for using MEK inhibitor therapy in MM patients that overexpress c-MAF."
+5960,228,b,These findings emphasise the potential benefit of genetic profiling to identify patients with MAF-expressing MM who may benefit from this class of agents.
+5961,229,b,"As part of the phase II trial of AZD6244 in relapsed/refractory MM, extensive molecular profiling of a subset of patients was conducted to correlate the genetic characteristics of MM with clinical outcomes."
+5962,230,b,"To date, detailed clinical data from eight patients has been analysed, four of whom overexpress c-MAF or MAF-B."
+5963,231,b,One patient (fibroblast growth factor receptor 3) had a very good PR lasting 8 months.
+5964,232,b,Another patient (MAF-B) had a PR of 6 months.
+5965,233,b,"Finally, two patients (one MAF-B, one pending results) demonstrated s.d. of >5 and 13 months, respectively.<sup><xref ref-type=""bibr"" rid=""bib100"">100</xref></sup>"
+5966,234,b,Additional studies with larger sample sizes are required to support or refute MAF expression as a reliable biomarker for MEK inhibition.
+5967,235,s,"<sec-title level=""1"">Conclusion</sec-title>"
+5968,236,b,The Ras/Raf/MEK/ERK pathway has an established role in the various neoplastic phenotypes observed in many malignancies.
+5969,237,b,"Deregulation of this pathway is also a common feature of MM, and contributes to the relapsing and refractory nature of the disease."
+5970,238,b,"These observations make this pathway an attractive target for pharmaceutical investigation, with a number of MEK inhibitors having been developed and evaluated clinically."
+5971,239,b,"Although preclinical studies of MEK inhibitors in MM have demonstrated a capacity to induce MM apoptosis by overcoming the prosurvival effects of the BMME, solid tumour studies indicate that the therapeutic benefit of MEK inhibitors alone are likely to be of limited benefit."
+5972,240,b,"Therefore, future clinical approaches require a shift towards using MEK inhibitors in combination with current anti-MM compounds and other novel small molecule inhibitors."
+5973,241,b,The identification of relevant biomarkers of MEK inhibitor responses remains a high priority that can be used to predict patient sensitivity and to tailor individualised therapies.
