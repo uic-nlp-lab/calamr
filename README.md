@@ -120,7 +120,7 @@ Copyright (c) 2023 - 2024 Paul Landes
 [zensols.propbankdb]: https://github.com/plandes/propbankdb
 [PropBank API]: https://github.com/plandes/propbankdb
 
-[CALAMR: Component ALignment for Abstract Meaning Representation]: https://example.com
+[CALAMR: Component ALignment for Abstract Meaning Representation]: https://aclanthology.org/2024.lrec-main.236/
 
 [amrlib]: https://github.com/bjascob/amrlib
 [amr_coref]: https://github.com/bjascob/amr_coref
