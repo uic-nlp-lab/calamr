@@ -17,6 +17,18 @@ this library or the [PropBank API] or PropBank curated database, please
 [cite](#citation) our paper.
 
 
+## Documentation
+
+The recommended reading order for this project:
+
+1. The abstract and introduction of the paper [CALAMR: Component ALignment for
+   Abstract Meaning Representation]
+1. The [conference slides](https://plandes.github.io/calamr/doc/CalamrSlides.pdf)
+1. [Overview and implementation guide](https://plandes.github.io/calamr/doc/CalamrImplementGuide.pdf)
+1. [Full documentation](https://plandes.github.io/calamr/index.html)
+1. [API reference](https://plandes.github.io/calamr/api.html)
+
+
 ## Reproducing the Results
 
 To reproduce the results from the paper, first process the corpus.  These next
@@ -120,7 +132,7 @@ Copyright (c) 2023 - 2024 Paul Landes
 [zensols.propbankdb]: https://github.com/plandes/propbankdb
 [PropBank API]: https://github.com/plandes/propbankdb
 
-[CALAMR: Component ALignment for Abstract Meaning Representation]: https://aclanthology.org/2024.lrec-main.236/
+[CALAMR: Component ALignment for Abstract Meaning Representation]: https://aclanthology.org/2024.lrec-main.236.pdf
 
 [amrlib]: https://github.com/bjascob/amrlib
 [amr_coref]: https://github.com/bjascob/amr_coref
